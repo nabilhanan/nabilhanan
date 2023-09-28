@@ -7,7 +7,10 @@ Saya seorang **Fresh Gradute** dari **S1 - Teknik Komputer, Universitas Diponego
 Beberapa keterampilan yang saya miliki yaitu:
 - [Git dan Github](https://www.dicoding.com/certificates/JMZV13N3NXN9).<br>
 
-Jika kamu tertarik untuk berkenalan denganku, silakan ikuti akun [Linkedin](https://www.linkedin.com/in/nabil-hanan/)ku ya.
+Jika kamu tertarik untuk berkenalan denganku, silakan ikuti akun [Linkedin](https://www.linkedin.com/in/nabil-hanan/)-ku ya.
+
+Lain-lain:
+- [Progres Belajar](https://github.com/nabilhanan/nabilhanan/blob/main/learning-progress.md#progres-belajar)
  
 ### Github Statistic
 <p align="left">
