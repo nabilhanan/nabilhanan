@@ -5,3 +5,6 @@
 
 28 September 2023
 - Membuat progres belajar.
+
+29 September 2023
+- Belajar dasar data science (18%).
