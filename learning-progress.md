@@ -7,4 +7,4 @@
 - Membuat progres belajar.
 
 29 September 2023
-- Belajar dasar data science (18%).
+- [Belajar dasar data science](https://www.dicoding.com/academies/615) (18%).
