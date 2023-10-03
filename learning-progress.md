@@ -11,3 +11,6 @@
 
 2 Oktober 2023
 - [Belajar dasar data science](https://www.dicoding.com/academies/615) (22%).
+
+3 Oktober 2023
+- [Belajar dasar data science](https://www.dicoding.com/academies/615) (32%).
