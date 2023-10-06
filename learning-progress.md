@@ -25,3 +25,6 @@
   - Menentukan keputusan dengan data: Data > Informasi > Pengetahuan > Wisdom.
   - Data-Driven Decision Making: Menggunaan fakta, metrik, dan data untuk memandu keputusan bisnis yang selaras dengan tujuan, sasaran, dan inisiatif perusahaan
   - Big data: Adalah aset informasi bervolume tinggi (high-volume), berkecepatan tinggi (high-velocity), dan/atau beragam tinggi (high-variety) yang menuntut bentuk pemrosesan informasi yang hemat biaya dan inovatif yang memungkinkan peningkatan wawasan, pengambilan keputusan, dan otomatisasi proses.
+
+6 Oktober 2023
+- [Belajar dasar data science](https://www.dicoding.com/academies/615) (36%).
