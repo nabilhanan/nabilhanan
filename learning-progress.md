@@ -28,11 +28,21 @@
 
 6 Oktober 2023
 - [Belajar dasar data science](https://www.dicoding.com/academies/615) (36%).
-  - Dasar Matematika untuk data science: variabel, fungsi, sigma.
+  - **Dasar Matematika untuk data science**: variabel, fungsi, sigma.
   - Variabel: Numerikal (kontinu dan diskrit), Kategorikal (nominal dan ordinal), DateTime.
   - Fungsi: Ekspresi yang mendefinisikan hubungan antara dua atau lebih variabel. Sebagian besar data science difokuskan untuk menemukan hubungan antara variabel dependen dan independen.
   - Sigma: Penjumlahan umumnya dinyatakan sebagai sigma ().
 
 7 Oktober 2023
 - [Belajar dasar data science](https://www.dicoding.com/academies/615) (36%).
-  - Kalkulus untuk data science: Multivariate calculus, gradient descent, Turunan, Integral.
+  - **Kalkulus untuk data science**: Multivariate calculus, gradient descent, Turunan, Integral.
+  - Multivariate calculus: Bidang kalkulus yang melibatkan banyak variabel.
+  - Gradient descent: Digunakan untuk menemukan minimal atau maksimal dari suatu fungsi.
+  - Turunan: Kemiringan garis singgung (tangen) terhadap kurva, menghitung laju perubahan fungsi terhadap variabel.
+
+ 8 Oktober 2023
+- [Belajar dasar data science](https://www.dicoding.com/academies/615) (36%).
+  - **Statistika untuk data science**: Statistika deskriptif dan statistika inferensial.
+  - Statistika deskriptif: Tendensi sentral (mean, median, modus) dan variabilitas (range, varian, standar deviasi, variabel minimum dan maksimum, kurtosis, dan skewness.
+  - Statistika inferensial: Analisis regresi dan pengujian hipotesis.
+  - **Aljabar linier untuk data science**: Vektor dan matriks.
