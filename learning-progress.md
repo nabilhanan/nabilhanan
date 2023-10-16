@@ -66,4 +66,11 @@
 - Range: jangkauan suatu nilai (nilai data terbesar - nilai data terkecil).
 - Varians: penyebaran angka dalam kumpulan data.
 - Standar deviasi: ukuran penyebaran dalam kumpulan data.
- 
+
+16 Oktober 2023
+[Belajar dasar data science](https://www.dicoding.com/academies/615) (38%).
+- Statistika inferensial: merupakan teknik analisis data yang digunakan untuk menentukan kesamaan antara hasil yang diperoleh dari suatu sampel dengan hasil yang akan didapat pada populasi secara keseluruhan.
+- Analisis regresi: Digunakan untuk memprediksi hubungan antara variabel independen dengan variabel dependen.
+- Pengujian Hipotesis: Pengujian ini merupakan pengujian statistika ketika kita ingin mengetahui kebenaran dari sebuah asumsi.
+- Vektor: Sederhananya, vektor adalah besaran yang memiliki nilai dan arah.
+- Matriks: adalah struktur data dasar yang digunakan untuk menyimpan data dan menyelesaikan sistem persamaan linier. 
