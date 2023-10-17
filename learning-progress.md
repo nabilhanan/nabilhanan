@@ -1,4 +1,4 @@
-## Progres Belajar
+## Progres Belajar Dasar Data Science
 
 27 September 2023
 - Membuat portofolio Github.
@@ -74,3 +74,15 @@
 - Pengujian Hipotesis: Pengujian ini merupakan pengujian statistika ketika kita ingin mengetahui kebenaran dari sebuah asumsi.
 - Vektor: Sederhananya, vektor adalah besaran yang memiliki nilai dan arah.
 - Matriks: adalah struktur data dasar yang digunakan untuk menyimpan data dan menyelesaikan sistem persamaan linier. 
+
+
+16 Oktober 2023
+[Belajar dasar data science](https://www.dicoding.com/academies/615) (38%).
+- Metodologi data science: CRISP-DM, Cross Industry Standard Process for Data Mining adalah proses model yang berfungsi sebagai dasar untuk proses data science. Proses model CRISP-DM memberikan gambaran tentang siklus hidup proyek data mining yang terdapat pada big data.
+- CRISP-DM memiliki enam tahapan yaitu Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, dan Deployment.
+- Bussines Understanding: Tahap ini merupakan pemahaman mendalam tentang kebutuhan pelanggan. Kegiatan yang dilakukan pada tahap ini adalah menentukan tujuan bisnis, menilai situasi ketersediaan sumber daya, tentukan tujuan pengumpulan data, dan menghasilkan rencana proyek.
+- Data Understanding: Tahap pemahaman data yaitu mendorong fokus untuk mengidentifikasi, mengumpulkan, dan menganalisis kumpulan data yang dapat membantu mencapai tujuan proyek. Kegiatan pada tahap ini adalah mengumpulkan data awal, menjelaskan data, jelajahi data, dan verifikasi kualitas data.
+- Data Preparation: Fase ini sering disebut “data mining”, yaitu menyiapkan kumpulan data akhir untuk pemodelan. Kegiatan pada fase ini diantaranya memilih data yaitu menentukan set data yang akan digunakan, lalu bersihkan data, bangun data atau dengan kata lain mendapatkan atribut baru yang akan membantu, lalu integrasikan data, dan yang terakhir format data.
+- Modelling: Secara garis besar, membuat dan menilai berbagai model berdasarkan beberapa teknik pemodelan yang berbeda. Pada tahap ini terdapat empat tugas, yaitu memilih teknik pemodelan, menghasilkan desain pengujian, membangun model, dan yang terakhir menilai model.
+- Evaluation: Fase evaluasi ini melihat lebih luas model yang paling sesuai dengan bisnis dan yang harus dilakukan selanjutnya. Terdapat tiga kegiatan yang mewakili fase evaluasi, yaitu evaluasi hasil, proses peninjauan, dan tentukan langkah selanjutnya.
+- Deployment: Merupakan tahap terakhir dan tahap yang paling dihargai dari proses CRISP-DM. Perencanaan untuk deployment dimulai dari fase business understanding dan harus menggabungkan tidak hanya untuk menghasilkan nilai model, tetapi juga cara mengonversi skor keputusan, dan cara untuk menggabungkan keputusan tersebut.
