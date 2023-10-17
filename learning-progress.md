@@ -76,8 +76,8 @@
 - Matriks: adalah struktur data dasar yang digunakan untuk menyimpan data dan menyelesaikan sistem persamaan linier. 
 
 
-16 Oktober 2023
-[Belajar dasar data science](https://www.dicoding.com/academies/615) (38%).
+17 Oktober 2023
+[Belajar dasar data science](https://www.dicoding.com/academies/615) (42%).
 - Metodologi data science: CRISP-DM, Cross Industry Standard Process for Data Mining adalah proses model yang berfungsi sebagai dasar untuk proses data science. Proses model CRISP-DM memberikan gambaran tentang siklus hidup proyek data mining yang terdapat pada big data.
 - CRISP-DM memiliki enam tahapan yaitu Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, dan Deployment.
 - Bussines Understanding: Tahap ini merupakan pemahaman mendalam tentang kebutuhan pelanggan. Kegiatan yang dilakukan pada tahap ini adalah menentukan tujuan bisnis, menilai situasi ketersediaan sumber daya, tentukan tujuan pengumpulan data, dan menghasilkan rencana proyek.
@@ -86,3 +86,11 @@
 - Modelling: Secara garis besar, membuat dan menilai berbagai model berdasarkan beberapa teknik pemodelan yang berbeda. Pada tahap ini terdapat empat tugas, yaitu memilih teknik pemodelan, menghasilkan desain pengujian, membangun model, dan yang terakhir menilai model.
 - Evaluation: Fase evaluasi ini melihat lebih luas model yang paling sesuai dengan bisnis dan yang harus dilakukan selanjutnya. Terdapat tiga kegiatan yang mewakili fase evaluasi, yaitu evaluasi hasil, proses peninjauan, dan tentukan langkah selanjutnya.
 - Deployment: Merupakan tahap terakhir dan tahap yang paling dihargai dari proses CRISP-DM. Perencanaan untuk deployment dimulai dari fase business understanding dan harus menggabungkan tidak hanya untuk menghasilkan nilai model, tetapi juga cara mengonversi skor keputusan, dan cara untuk menggabungkan keputusan tersebut.
+
+- Keterampilan teknis yang diperlukan untuk menjadi seorang data scientist:
+  - Statistik dan probabilitas
+  - Mengolah data (data wrangling dan database management)
+  - Pemrograman (Phyton, R, SAS, SQL)
+  - Machine Learning
+  - Analisis Data (Visualisasi Data)
+  - Cloud Computing
