@@ -94,3 +94,13 @@
   - Machine Learning
   - Analisis Data (Visualisasi Data)
   - Cloud Computing
+
+17 Oktober 2023
+[Belajar dasar data science](https://www.dicoding.com/academies/615) (48%).
+- Analisis data: adalah proses menyelidiki, membersihkan, mengubah, dan memodelkan data dengan tujuan menemukan informasi yang berguna, menginformasikan kesimpulan, mendukung pengambilan keputusan, dan masih banyak lagi.
+- Siklus analisis data: Question > Data wrangling > Exploratory Data Analysis > Data Visualization > Draw Conclusion and Communicate
+- Mendefinisikan pertanyaan: Pada awal proyek analisis data, kita perlu mendefinisikan berbagai pertanyaan analisis terkait data ataupun permasalahan yang ingin diselesaikan. Pertanyaan tersebut akan membantu kita dalam memahami masalah bisnis yang dihadapi serta tujuan yang ingin dicapai.
+- Data wrangling: Tahap ini dimulai dengan mengumpulkan data yang dibutuhkan untuk menjawab pertanyaan analisis yang telah dibuat sebelumnya. Kemudian Anda perlu menilai kualitas dan struktur dari data tersebut. Hal ini dilakukan untuk mengidentifikasi masalah yang terdapat dalam data serta membuat strategi pembersihan data yang sesuai.
+- Exploratory Data Analysis: Tahap ini merupakan tahap eksplorasi terhadap data yang telah dibersihkan untuk memperoleh meaningful insights dan menjawab pertanyaan analisis. EDA memungkinkan analyst memahami isi data yang digunakan, mulai dari distribusi, frekuensi, korelasi, dan lainnya.
+- Data Visualization: Pada tahap ini, kita akan menerapkan berbagai teknik dan jenis visualisasi data yang tepat untuk mengomunikasikan temuan atau insight dari hasil analisis secara efektif.
+- Draw conclusion and communicate: Pada akhir proyek analisis data, kita perlu membuat conclusion atau kesimpulan dari hasil analisis. Kesimpulan yang dibuat haruslah menjawab semua pertanyaan dan tujuan yang telah didefinisikan di awal.
