@@ -95,12 +95,40 @@
   - Analisis Data (Visualisasi Data)
   - Cloud Computing
 
-17 Oktober 2023
-[Belajar dasar data science](https://www.dicoding.com/academies/615) (48%).
+17, 21 Oktober 2023
+[Belajar dasar data science](https://www.dicoding.com/academies/615) (50%).
 - Analisis data: adalah proses menyelidiki, membersihkan, mengubah, dan memodelkan data dengan tujuan menemukan informasi yang berguna, menginformasikan kesimpulan, mendukung pengambilan keputusan, dan masih banyak lagi.
 - Siklus analisis data: Question > Data wrangling > Exploratory Data Analysis > Data Visualization > Draw Conclusion and Communicate
 - Mendefinisikan pertanyaan: Pada awal proyek analisis data, kita perlu mendefinisikan berbagai pertanyaan analisis terkait data ataupun permasalahan yang ingin diselesaikan. Pertanyaan tersebut akan membantu kita dalam memahami masalah bisnis yang dihadapi serta tujuan yang ingin dicapai.
+  - Menggunakan SMART Question: Specific, Measurable, Action-Oriented, Relevant, Time-Bound
+  - Specific: Sebuah pertanyaan analisis harus merujuk pada topik tertentu (Destinasi wisata manakah yang memiliki rating paling rendah?).
+  - Measurable: Pertanyaan dapat diukur (Berapa banyak destinasi wisata yang memiliki rating di bawah rata-rata?)
+  - Action-Oriented: Pertanyaan yang diajukan harus mampu memberikan informasi yang dapat membantu Anda dalam membuat sebuah rencana yang harus dilakukan nantinya(Hal apa yang perlu dilakukan daerah setempat untuk meningkatkan rating destinasi wisata tersebut?).
+  - Relevant: Pertanyaan yang diajukan harus berbobot dan memiliki arti untuk menyelesaikan sebuah permasalahan yang ingin diselesaikan (Apakah aksi tersebut dapat meningkatkan rating destinasi wisata?).
+  - Time-bound: Pertanyaan yang diajukan mesti bersifat time-bound atau selaras terhadap waktu saat ini (Berapa lama rencana peningkatan tersebut dilaksanakan?).
 - Data wrangling: Tahap ini dimulai dengan mengumpulkan data yang dibutuhkan untuk menjawab pertanyaan analisis yang telah dibuat sebelumnya. Kemudian Anda perlu menilai kualitas dan struktur dari data tersebut. Hal ini dilakukan untuk mengidentifikasi masalah yang terdapat dalam data serta membuat strategi pembersihan data yang sesuai.
+  - Mengumpulkan data: Mencari dataset yang sesuai.
+  - Menyiapkan data untuk dianalisis: membuat filter data yang dibutuhkan, membersihkan data, memilah data.
+    - Teknik membersihkan data: Define, Code, Test.
+    - Define: Membuat rancangan tahapan serta metode pembersihan data berdasarkan masalah yang ditemukan dalam proses assessing data.
+    - Code: Setelah membuat rancangan pembersihan data, tahap selanjutnya ialah mengonversi hal tersebut menjadi sebuah kode program yang dapat dijalankan.
+    - Test: Memeriksa kembali data yang telah dibersihkan tersebut.
+    - Data kotor yang dibersihkan: Data duplikat, data usang, data yang tidak lengkap, data yang tidak akurat, data yang tidak konsisten.
 - Exploratory Data Analysis: Tahap ini merupakan tahap eksplorasi terhadap data yang telah dibersihkan untuk memperoleh meaningful insights dan menjawab pertanyaan analisis. EDA memungkinkan analyst memahami isi data yang digunakan, mulai dari distribusi, frekuensi, korelasi, dan lainnya.
+  - Korelasi memiliki nilai dalam rentang tertentu untuk menentukan hubungan yang makin kuat, yaitu -1 (negatif) dan 1 (positif).
+  - Setelah mengetahui nilai korelasi tersebut dapat dilihat tren dari data tersebut apakah cukup kuat atau tidak.
+  - Tren merupakan sebuah analisis dengan membandingkan data dari waktu ke waktu untuk melihat hasil yang konsisten.
+  - Fase mendapatkan tren: mengatur data, memformat dan menyesuaikan data, mendapatkan insight dari orang lain, amati hubungan antar titik dan membuat perhitungan.
 - Data Visualization: Pada tahap ini, kita akan menerapkan berbagai teknik dan jenis visualisasi data yang tepat untuk mengomunikasikan temuan atau insight dari hasil analisis secara efektif.
+  - Visualisasi yang dihindari: misleading, hides, distract.
+  - Prinsip visualisasi data: position, size, shape, color, texture, angle.
+  - Menggunakan grafik sesuai dengan kebutuhan.
+  - Bar chart: Digunakan ketika ingin membandingkan bagian dari sekumpulan data yang lebih besar, menyoroti kategori yang berbeda, atau menampilkan perubahan dari waktu ke waktu. Ketika ingin mengilustrasikan nilai positif dan negatif dalam kumpulan data. Dihindari ketika memiliki banyak kategori karena grafik batang sebaiknya tidak boleh memiliki lebih dari 10 batang (kategori).
+  - Pie chart: Digunakan ketika menampilkan proporsi dan persentase relatif dari seluruh kumpulan data, paling baik digunakan dengan kumpulan data kecil, memiliki tidak lebih dari 6 kategori, data bertipe nominal dan bukan ordinal.Dihindari ketika memiliki kumpulan data yang besar dan ingin membuat perbandingan yang tepat atau absolut antara nilai.
+  - Line chart: Digunakan ketika memiliki kumpulan data berkelanjutan yang berubah seiring waktu, saat kumpulan data terlalu besar untuk bar chart, ketika ingin menampilkan beberapa seri untuk garis waktu yang sama, dan s aat ingin memvisualisasikan tren, bukan nilai yang tepat.
+  - Scatter plot: Digunakan untuk menunjukkan korelasi dan pengelompokkan dalam kumpulan data besar, ketika kumpulan data berisi titik yang memiliki sepasang nilai, dan ketika urutan poin dalam dataset tidak penting.
+  - Area chart: Digunakan ketika ingin menunjukan hubungan bagian keseluruhan dan ketika ingin menggambarkan volume data dan bukan hanya hubungannya dengan waktu. Tidak dapat digunakan dengan data diskrit.
 - Draw conclusion and communicate: Pada akhir proyek analisis data, kita perlu membuat conclusion atau kesimpulan dari hasil analisis. Kesimpulan yang dibuat haruslah menjawab semua pertanyaan dan tujuan yang telah didefinisikan di awal.
+  - Libatkan audiens: Ketika menganalisis sebuah data, maka libatkan audiens untuk melihat hasil dari analisis tersebut. Karena hal tersebut adalah cara yang jauh lebih menarik untuk berbagi data.
+  - Buat visual yang menarik: Visual harus membawa audiens Anda dalam perjalanan tentang bagaimana data berubah dari waktu ke waktu.
+  - Ceritakan kisah dengan cara yang menarik: Tahap terakhir ini adalah menceritakan kisah tersebut dalam narasi yang menarik. 
