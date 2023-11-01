@@ -132,3 +132,25 @@
   - Libatkan audiens: Ketika menganalisis sebuah data, maka libatkan audiens untuk melihat hasil dari analisis tersebut. Karena hal tersebut adalah cara yang jauh lebih menarik untuk berbagi data.
   - Buat visual yang menarik: Visual harus membawa audiens Anda dalam perjalanan tentang bagaimana data berubah dari waktu ke waktu.
   - Ceritakan kisah dengan cara yang menarik: Tahap terakhir ini adalah menceritakan kisah tersebut dalam narasi yang menarik. 
+
+1 November 2023
+[Belajar dasar data science](https://www.dicoding.com/academies/615) (56%).
+**Teknologi Penyimpanan Data**
+- Menurut Amazon Web Service (AWS) basis data adalah koleksi data sistematis yang disimpan secara elektronik.
+- Tipe-tipe Basis Data:
+  - Relational Database: hubungan setiap data memiliki sifat yang relasional serta tersimpan dalam bentuk kolom dan baris.
+  - Object-Oriented Database: model basis data yang menyimpan informasi dalam bentuk objek.
+  - Distributed Database: adalah kumpulan data yang digunakan bersama-sama dan memiliki hubungan logis fisik tersebar di jaringan komputer.
+  - Data Warehouse: platform yang dirancang untuk mengumpulkan, menyimpan, menganalisis, dan mengelola data dari berbagai sumber yang berbeda untuk tujuan analisis bisnis dan pengambilan keputusan.
+  - NoSQL Database: memungkinkan data tidak terstruktur dan semi terstruktur untuk disimpan dan dimanipulasi.
+  - Graph Database: Basis data grafik dibuat khusus untuk menyimpan dan menavigasi hubungan. Basis data grafik menggunakan node untuk menyimpan entitas data dan edge untuk menyimpan hubungan antar entitas.
+- Data: Informasi, fakta, dari keterangan yang benar dan nyata mengenai suatu objek atau kejadian yang bisa dicatat atau disimpan.
+- Basis data adalah kumpulan data yang diatur dan disimpan dengan cara yang memungkinkan akses dan pengambilan yang mudah.
+- Dataset adalah kumpulan data diatur dalam format tertentu, seperti spreadsheet, CSV, atau basis data. Umumnya, digunakan untuk keperluan spesifik.
+- **SQL** adalah bahasa pemrograman untuk menyimpan dan memproses informasi dalam basis data relasional.
+- Data Definition Language: DDL merupakan subperintah pada SQL yang dimanfaatkan guna membangun kerangka basis data (CREATE, ALTER, DROP).
+- Data Manipulation Language: DML merupakan subperintah pada SQL yang dimanfaatkan dalam manipulasi basis data yang sudah dibuat (INSERT, SELECT UPDATE, DELETE).
+- **NoSQL** atau disebut juga sebagai “not only SQL” , “non-SQL”, adalah pendekatan untuk desain basis data yang memungkinkan penyimpanan dan kueri data di luar struktur tradisional yang ditemukan dalam basis data relasional.
+- 4 kategori utama no-sql: Document Databases (JSON/XML), Key-Value, Column-Family stores, Graph Databases.
+- Basis data NoSQL sering digunakan dalam aplikasi yang membutuhkan banyak data untuk diproses dan dianalisis secara real-time, seperti analitik media sosial (Social Media Analytics), e-commerce, dan game.
+- NoSQL tidak cocok untuk semua aplikasi karena tidak memberikan tingkat konsistensi data dan jaminan transaksional yang sama dengan basis data relasional.
