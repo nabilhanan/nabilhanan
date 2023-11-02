@@ -135,7 +135,7 @@
 
 1 November 2023
 [Belajar dasar data science](https://www.dicoding.com/academies/615) (56%).
-**Teknologi Penyimpanan Data**
+- **Teknologi Penyimpanan Data**
 - Menurut Amazon Web Service (AWS) basis data adalah koleksi data sistematis yang disimpan secara elektronik.
 - Tipe-tipe Basis Data:
   - Relational Database: hubungan setiap data memiliki sifat yang relasional serta tersimpan dalam bentuk kolom dan baris.
@@ -154,3 +154,17 @@
 - 4 kategori utama no-sql: Document Databases (JSON/XML), Key-Value, Column-Family stores, Graph Databases.
 - Basis data NoSQL sering digunakan dalam aplikasi yang membutuhkan banyak data untuk diproses dan dianalisis secara real-time, seperti analitik media sosial (Social Media Analytics), e-commerce, dan game.
 - NoSQL tidak cocok untuk semua aplikasi karena tidak memberikan tingkat konsistensi data dan jaminan transaksional yang sama dengan basis data relasional.
+
+
+2 November 2023
+[Belajar dasar data science](https://www.dicoding.com/academies/615) (56%).
+- Perangkat pengolahan data: Excel, Spreadsheet, SPSS (Statistical Package for the Social Science.
+- Perangkat visualisasi data: Tableau, Metabase, Looker Studio.
+- Bahasa pemrograman data science: phyton dan R.
+
+**Teknologi Machine Learning**
+- Machine learning: adalah ilmu pengembangan algoritma yang memanfaatkan konsep matematis dan statistik dalam menjalankan tugas tertentu tanpa instruksi eksplisit.
+- Machine learning akan berusaha mengenal pola yang terdapat dalam sebuah data serta menggunakannya untuk menghasilkan prediksi.
+- Supervised learning: Pendekatan machine learning yang menggunakan kumpulan data berlabel. Contoh penerapan supervised learning adalah face recognition yang terdapat pada smartphone.
+- Unsupervised learning: hanya membutuhkan data (tanpa label) untuk melatih model. Contoh penerapan unsupervised learning adalah adanya rekomendasi pada sebuah media sosial yang relate dengan favorit.
+- Reinforcement learning: metode tersebut mampu meniru perilaku yang diinginkan seperti pada AI board game.
