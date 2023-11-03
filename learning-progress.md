@@ -157,7 +157,7 @@
 
 
 2 November 2023
-[Belajar dasar data science](https://www.dicoding.com/academies/615) (56%).
+[Belajar dasar data science](https://www.dicoding.com/academies/615) (78%).
 - Perangkat pengolahan data: Excel, Spreadsheet, SPSS (Statistical Package for the Social Science.
 - Perangkat visualisasi data: Tableau, Metabase, Looker Studio.
 - Bahasa pemrograman data science: phyton dan R.
