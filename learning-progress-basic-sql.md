@@ -16,6 +16,9 @@ Jenis-Jenis Data
 - Data Numerik: Data yang berwujud angka yang bisa didapat dari sebuah pengukuran. Data Numerik dibagi menjadi kontinu dan diskrit.
   - Kontinu: Dapat dipecah ke satuan yang lebih kecil. Contoh panjang 1m = 100cm
   - Diskrit: Tidak dapat dipecah ke satuan yang lebih kecil. Contoh jumlah penumpang mobil sebanyak 4 orang.
+ - Data Kategorikal: Data yang dapat dikelompokkan dan terbagi berdasarkan karakteristik atau ciri khasnya masing-masing. Data kategorikal dibagi menjadi nominal dan ordinal.
+   - Nominal: Data kategorikal tanpa hubungan apapun diantara data.
+   - Ordinal: Data kategorikal berurutan.
 
 Tipe-Tipe Data  
 - Integer: Tipe data berbentuk bilangan bulat atau numerik yang umumnya digunakan untuk menyimpan angka tanpa komponen pecahan.
@@ -45,5 +48,5 @@ Aljabar Relasional
 - Relational Algebra: Merupakan kumpulan operasi terhadap relasi di mana setiap operasi menggunakan satu atau lebih relasi untuk menghasilkan satu relasi yang baru.
 - Operasi Aljabar relasional terdiri dari selection, projection, cartesian, union, set-difference, dan rename.
 -  Operasi lain yang merupakan turunan aljabar relasional yaitu set intersection, theta join, natural-join, outer join, dan division.
-
+  
 - Entity Relationship Diagram (ERD): Merupakan salah satu teknik dalam merancang basis data yang terdiri dari tiga hal, di antaranya entity, atribut/properti, dan relasi.
