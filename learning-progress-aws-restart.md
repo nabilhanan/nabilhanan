@@ -33,4 +33,50 @@ Rules & Regulation
 4. Peserta yg hadir dibawah 1/2 total durasi kelas dianggap absen.
 5. Peserta yg izin/absent wajib mengisi form.
 
-Day 2 - 20 November 2023. Topic 2:
+Day 2 - 20 November 2023. Topic 2: Basic Computing Concepts  
+Materi  
+- Mendeskripsikan server dan data center
+- Membahas teknologi komputer yang memungkinkan teknologi cloud computing
+- Mendeskripsikan bagaimana software dikembangkan
+- Server: Komputer yang menyediakan data atau layanan kepada komputer lain (client) melalui jaringan.
+- Server Hardware memiliki spesifikasi yang lebih tinggi dari PC biasa untuk melayani permintaan.
+- Server berada di data center
+
+Siapa yang memiliki data center?  
+on-premise  
+- Milik pribadi
+- Membeli, mengelola, dan mengkonfigurasi seluruh hardware dan software.
+- Mempekerjakan staff untuk mengelola data center.
+- Menggunakan seluruh sumber daya data center untuk keperluan pribadi.
+
+cloud model  
+- milik penyedia jasa cloud services
+- cloud services mengelola seluruh infrastruktur
+- pengguna membayar cloud services untuk menggunakan sumber daya data center.
+
+Apa itu VM?  
+- Virtual Machine: software-based computer
+- VM berjalan di komputer fisik yang disebut host
+- sebuah software layer yang disebut hypervisor memberi akses untuk sumber daya dari host
+
+Keuntungan VM  
+- cost savings: menjalankan beberapa VM pada satu komputer fisik dapat menghemat sumber daya komputasi server
+- efficiency: menggunakan VM meningkatkan utilitas
+- reusability and portability: VM image dapat di di duplikat ke host lain.
+
+VM di Cloud Computing  
+- VM adalah dasar dari cloud computing
+- VM menawarkan: membayar hanya apa yang digunakan, skalabilitas
+
+Software Development Life Cycle  
+Bagaimana software dikembangkan?  
+- SDLC: Plan, Analize, Design, Develop, Test, Implement, Maintain
+- Waterfall, Agile, Lean, dll
+- Plan: Mengidentifikasi tujuan proyek dan sumber daya yang dibutuhkan. Menghasilkan project plan.
+- Beberapa faktor yang mempengaruhi yaitu ekonomi, operational dan aspek teknik
+- Analyze: Kebutuhan produk didefinisikan dan di dokumentasikan dalam SRS (Software Requirement Specification). Digunakan untuk referensi pada setiap tahap pada SDLC.
+- Design: Design Specification Documentation dibuat. Wireframe sebagai kerangka utama tampilan software.
+- Develop: Proses pengembangan aplikasi/software.
+- Test: proses pengujian software
+- Implementation: deployment aplikasi untuk digunakan oleh user
+- Maintain: Pemantauan secara konstan untuk menjaga kelancaran aplikasi dari bug dan gangguan
