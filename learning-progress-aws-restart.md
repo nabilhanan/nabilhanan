@@ -80,3 +80,10 @@ Bagaimana software dikembangkan?
 - Test: proses pengujian software
 - Implementation: deployment aplikasi untuk digunakan oleh user
 - Maintain: Pemantauan secara konstan untuk menjaga kelancaran aplikasi dari bug dan gangguan
+
+Topic 3: Develompent Team Roles
+- Project Manager: mengembangkan project plan, mencari staff untuk mengerjakan proyek, memimpin dan mengelola proyek, menugaskan pekerjaan ke team member, menentukan timeline, update status ke managemen atas.
+- Analyst: disebut bussines analyst atau requirment analyst, mendefinisikan tujuan dari proyek, mengumpulkan kebutuhan dari berbagai pihak
+- QA: membuat skenario test untuk fuction, usability, efficiency, maintainability, dan portability. Mendokumentasikan bug dan issue yang ditemukan.
+- Software Developer: mengembangkan aplikasi mengikuti spesifikasi yang telah dibuat. Memperbaiki bug dan issue yang dilaporkan dari QA
+- DB admin: bertanggung jawab terhadap semua data yang dibutuhkan aplikasi di database.
