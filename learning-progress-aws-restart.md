@@ -87,3 +87,16 @@ Topic 3: Develompent Team Roles
 - QA: membuat skenario test untuk fuction, usability, efficiency, maintainability, dan portability. Mendokumentasikan bug dan issue yang ditemukan.
 - Software Developer: mengembangkan aplikasi mengikuti spesifikasi yang telah dibuat. Memperbaiki bug dan issue yang dilaporkan dari QA
 - DB admin: bertanggung jawab terhadap semua data yang dibutuhkan aplikasi di database.
+
+Topic 4: What is Cloud Computing  
+- Cloud Computing: On-demand delivery sumber daya komputasi melalui internet dengan skema pay as you go
+- Model komputasi lama: Infrastructure as hardware.
+- Model komputasi awan: Infrastructure as software.
+- Cloud service model:
+  1. IaaS: Infrastructure as a service
+  2. PaaS: Platform as a service
+  3. SaaS: Software as a service
+- Cloud computing deployment model
+  1. Cloud: Tidak ada biaya awal, biaya operasional yang rendah, fokus pada inovasi, kapasitas fleksibel, cepat dan lincah, jangkauan global.
+  2. Hybrid: gabungan antara cloud dan on-premise
+  3. Private: Biaya awal besar, kapasitas tetap, biaya operasional tambahan untuk karyawan patch dan upgrade, fokus tambahan ke sistem administrasi
