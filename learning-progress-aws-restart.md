@@ -100,3 +100,43 @@ Topic 4: What is Cloud Computing
   1. Cloud: Tidak ada biaya awal, biaya operasional yang rendah, fokus pada inovasi, kapasitas fleksibel, cepat dan lincah, jangkauan global.
   2. Hybrid: gabungan antara cloud dan on-premise
   3. Private: Biaya awal besar, kapasitas tetap, biaya operasional tambahan untuk karyawan patch dan upgrade, fokus tambahan ke sistem administrasi
+
+Day 3 - 21 November 2023.  
+Soft-Skill learning: Who am I  
+onetonline.org
+
+Topic 5: Adventage of using Cloud computing  
+- menukar pengeluaran tetap dengan pengeluaran variabel (flexible).
+- massive economies of scale: semakin banyak service digunakan semakin banyak diskon
+- mengurangi menebak kapasitas komputasi dan penyimpanan
+- meningkatkan kecepatan dan kelincahan
+- tidak ada lagi pengeluaran untuk menjalankan dan maintain data center
+- dapat membangun infrastruktur secara global
+
+Topic 6: What is AWS  
+- Web services: Iaas, PaaS, SaaS
+- Web services: software yang dapat diakses melalui internet, menggunakan format standar (XML/JSON) untuk request
+
+AWS Services  
+- Penyedia layanan cloud dengan beragam layanan
+  1. Computer
+  2. Database
+  3. Networking and content delivery
+  4. Security, Identity, & Compliance
+  5. Strorage
+  6. IoT
+  7. Machine Learning
+  8. Containers
+  9. Satellite
+  10. dll
+- Layanan yang dipilih tergantung kebutuhan bisnis dan teknologi
+- Tiga cara mengakses layanan AWS
+  1. AWS Management Console
+  2. AWS CLI
+  3. AWS SDK
+
+Topic 7: Fundamental Pricing  
+Dibagi menjadi tiga  
+1. Compute: dihitung per jam, berbeda tergantung tipe instance
+2. Storage: biasanya dihitung per GB
+3. Data Transfer: biasanya dihitung per GB. 
