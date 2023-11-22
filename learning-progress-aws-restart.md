@@ -140,3 +140,45 @@ Dibagi menjadi tiga
 1. Compute: dihitung per jam, berbeda tergantung tipe instance
 2. Storage: biasanya dihitung per GB
 3. Data Transfer: biasanya dihitung per GB. 
+
+Day-4 22 November 2023  
+Soft Skills: Main Goal  
+- What is time management? kemampuan untuk mengontrol bagaimana menggunakan waktu dengan baik
+- mengapa harus manajemen waktu? mencapai tujuan lebih cepat, melakukan lebih dalam waktu yang lebih sedikit, mencapai work life balance
+- Apa yang ingin kita capai? aktivitas apa yang harus dilakukan untuk mencapai tujuan kita?
+- Skill esensial: menetapkan tujuan, menentukan prioritas, planning, organisasi.
+- reverse planning: mulai dengan identifikasi apa yang ingin kita capai, kemudian mencari tau aksi yang harus dilakukan tiap langkah untuk mencapai tujuan tersebut.
+- akunabilitas: tanggung jawab dari seseorang untuk menyelesaikan tugas yang diberikan dan dapat menjelaskan pekerjaan mereka.
+- Ketika seseorang mengatakan dia berbuat salah, dia memperlihatkan akuntabilitasnya
+- cara memperlihatkan akuntabilitas:
+  1. komunikasikan tujuan
+  2. jujur dengan kemampuan dan pencapaian
+  3. menjaga komitmen
+  4. mengakui kesalahan
+
+Topic 8: AWS Infrastructure  
+- AWS global infrastructure: Di desain untuk melayani layanan cloud computing yang flexible reliabel aman dan scalable.
+- Infrastructur layer: Regions, Availability Zones(AZ), PoPs
+- Foundation Services Layer: Compute, Networking, Storage
+- terdapat 84 AZ di 26 region di seluruh dunia
+- AWS Data Center: Fondasi infrastruktur AWS
+- Satu data center berisi 50k sampai 80k server
+- AWS Availability Zones: Setiap AZ terdiri dari satu atau lebih data center
+- Setiap data center dalam satu AZ saling terhubung satu sama lain menggunakan jaringan network private berkecapat tinggi.
+- Hal ini memungkinkan fault isolation: agar jika satu data center mati, layanan masih akan tetap berjalan menggunakan data center lain di satu az.
+- AWS Region: representasi geografis yang dioperasikan oleh AWS.
+- Ditiap Region, minimal terdapat 3 AZ
+- AWS memiliki 24 Region
+- memilih region: legalitas dan regulasi, proximity dan latensi, servis yang tersedia, biaya
+- Points of Presence(PoP): PoP mempunyai edge locations dan regional edge chaches, menggunakan Amazon Cloudfront, layanan global content delivery network (CDN)
+- PoP mempercepat pengiriman konten mengurangi latensi ke end user.
+- PoP berbentuk data center disebut edge locations.
+- kumpulan edge locations tergabung menjadi satu regional edge
+- Fitur AWS Infrastrukture: Elastis dan scalable, fault-tolerant, high availability. Hal ini di dukung oleh infrastruktur bertingkat dimulai dari data center>AZ>Region dan didukung PoP edge location>regional edge
+
+Topic 9: Fundamental Pricing  
+- Pay for what you use: membayar hanya servis yang digunakan tanpa pengeluaran besar diawal.
+- Pay less when you reserve: beberapa layanan dengan pembayaran dimuka (memesan) menyediakan diskon yang lebih besar. (EC2 instance: On-demand instance, NURI (No upfront payment reserved instance) memberikan diskon lebih kecil, PURI (Partial upfront reserved instance) memberikan diskon menengah, AURI (All upfront reserved instance) memberikan diskon terbesar.)
+- Pay less by using more: biasa berlaku pada layanan storage. semakin menggunakan banyak biaya yang dibayarkan bisa semakin rendah
+- Pay less as AWS grows: AWS fokus untuk menurunkan harga layanan bersamaan dengan berkembangnya layanan AWS
+- Custom pricing: memberikan layanan lbih tergantung kebutuhan khusus
