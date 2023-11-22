@@ -182,3 +182,5 @@ Topic 9: Fundamental Pricing
 - Pay less by using more: biasa berlaku pada layanan storage. semakin menggunakan banyak biaya yang dibayarkan bisa semakin rendah
 - Pay less as AWS grows: AWS fokus untuk menurunkan harga layanan bersamaan dengan berkembangnya layanan AWS
 - Custom pricing: memberikan layanan lbih tergantung kebutuhan khusus
+- AWS free tier: 1 tahun gratis untuk akun baru
+- 
