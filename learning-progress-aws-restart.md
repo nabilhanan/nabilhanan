@@ -183,4 +183,69 @@ Topic 9: Fundamental Pricing
 - Pay less as AWS grows: AWS fokus untuk menurunkan harga layanan bersamaan dengan berkembangnya layanan AWS
 - Custom pricing: memberikan layanan lbih tergantung kebutuhan khusus
 - AWS free tier: 1 tahun gratis untuk akun baru
-- 
+
+Day 5 23 November 2023  
+Soft Skill: Communication  
+- Non-verbal communication: komunikasi tanpa menggunakan bahasa, seperti ekspresi wajah, postur, dan intonasi suara.
+- Kongruensi: Pastikan ekspresi wajah dan intonasi sesuai dengan pesan yang disampaikan.
+- Oral communication: menggunakan percakapan untuk menyampaikan pesan.
+- Perlu diperhatikan: dengarkan lawan bicara dan pastikan anda mengerti arah pembicaraan, bertanya untuk mendapat informasi lebih dan memperlihatkan ketertarikan, dan berikan apresiasi seperti memberi terimakasih di akhir percakapan.
+- Written communication: komunikasi melalui pesan elektronik.
+- Perlu diperhatikan: rencanakan sebelum mulai menulis pesan, to-the-poin, review kembali sebelum mengirim pesan.
+- STAR method: Situation, Task, Actions, Results. Alat untuk mendeskripsikan dan memahami pengalaman profesional.
+
+Topic 10: AWS Service  
+- AWS Storage: Amazon S3 (simple storage service), Amazon EBS (elastic block store), Amazon EFS (elastic file system), Amazon S3 Glacier.
+- Amazon S3: data disimpan sebagai objek.
+- Amazon EBS: penyimpanan untuk storage drive.
+- Amazon EFS: penyimpanan untuk file sharing, NAS (Network Attached Storage).
+- AWS Compute: Amazon EC2 (elastic compute cloud), EC2 Auto Scaling, AWS Elastic Beanstalk, AWS Lambda.
+- EC2: komputasi VM standar
+- EC2 Auto Scaling: EC2 dengan fitur self-healing ketika VM penuh.
+- Lambda: komputasi tanpa konfigurasi VM, hanya berfokus pada kode program dan data.
+- Elastic Beanstalk: konfigurasi VM fitur komplit
+- AWS Containers: Amazon ECR (elastic container registry), Amazon ECS (elastic container service), Amazon Elastic Kubernetes Service, AWS Fargate.
+- Amazon ECR: menyimpan container orkestrator image docker
+- Amazon ECS: mendeploy container orkestrator image docker
+- Amazon EKS: mendeploy container orkestrator image kubernetes
+- Fargete: container orkestrator minim konfiguasi
+- AWS Database: Amazon RDS (relational database service), Amazon Aurora, Amazon Redshift, Amazon DynamoDB
+- RDS: database relasional
+- Aurora: DBMS buatan AWS, lebih kompatibel dengan environtment AWS
+- DynamoDB: database mirip monggoDB
+- Redshift: database untuk data analytic
+- AWS Networking and Content Deliver: Amazon VPC (virtual private cloud), Elastic load balancing, Amazon route 53, AWS client VPN, Amazon Cloudfront, AWS Direct connect, AWS Transit gateway
+- Amazon VPC: Mengelompokkan jaringan di environtment
+- ELB: mendistribusikan trafic secara rata
+- Route 53: layanan dns server
+- client VPN: layanan VPN
+- Cloudfront: penyampaian konten ke enduser lebih cepat.
+- direct connect: memindahkan on premise ke aws secara langsung
+- transit gateway: menghubungkan antar VPC atau dengan jaringan diluar AWS
+- AWS security identity compliance: AWS IAM (identify and access management), AWS organization, AWS cognito, AWS Shield, AWS KMS (key management sercice), AWS artifact.
+- AWS IAM: servis manajemen admin
+- Organization: menghubungkan akun aws dengan akun aws yang lain
+- cognito: layanan sso
+- aws shield: layanan untuk melindungi dari ddos
+- kms: enkripsi data
+- artifact: kumpulan compliance aws
+- AWS cost management: AWS cost and usage report, AWS budgets, AWS cost explorer.
+- Cost and Usage report: dashboard billing
+- budget: untuk mengatur budget
+- cost explorer: menghitung biaya kedepannya
+- AWS management and governance: AWS management console, AWS config, AWS CLI, Amazon CLoudWatch
+- config: melacak perubahan konfigurasi dari sistem
+- CludWatch: memonitor sumberdaya
+- CloudTrail: memonitor aktivitas user/ API di akun AWS
+- Truste Advisor: melakukan asesmen dari performa dan keamanan
+- well architected tool: melakukan assesmen bect practice
+
+Topic 11: AWS shared responsibility  
+- tanggung jawab dibagi menjadi dua, pelanggan dan aws
+- aws bertanggung jawab terhadap servis dasar (compute, storage, database, network), dan global infrastruktur (region az dan edge location)
+- pelanggan bertanggung jawab atas aplikasi dan data yang mereka deploy di layanan aws (costumer data, application, AWS IAM, OS, network, firewall config, client side data encryption, data integrity authentication, server-side encryption (file system or data), network traffic protection (encryption, integrity, identity).
+- AWS responsibility Security of the cloud: keamanan fisik dari data center, infrastruktur hardware dan software (storage decomminisioning & audit), infrastructur network, infrastructure virtualisasi.
+- Customer responsibilit Security in the cloud: EC2 instace OS, application, security group, os-based/host-based firewall, network configuration, account management
+- Iaas: customer mempunyai flexibilitas konfigurasi lebih dan tanggung jawab lebih juga
+- PaaS: beberapa konfigurasi dan tanggung jawab infrastructur lebih dibantu oleh AWS
+- IaaS: customer tinggal menggunakan
