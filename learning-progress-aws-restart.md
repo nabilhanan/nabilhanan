@@ -249,3 +249,20 @@ Topic 11: AWS shared responsibility
 - Iaas: customer mempunyai flexibilitas konfigurasi lebih dan tanggung jawab lebih juga
 - PaaS: beberapa konfigurasi dan tanggung jawab infrastructur lebih dibantu oleh AWS
 - IaaS: customer tinggal menggunakan
+
+Topic 12: Amazon Simple Storage Services (S3)  
+- Amazon S3: data disimpan sebagai objek di dalam buckets.
+- Penyimpanan secara virtual tidak terbatas, dengan besar satu single object maksimal 5TB
+- Objek: berisi informasi dari data dan metadata dari data tsb
+- Data akan secara otomatis terduplikat di semua az di region yang dipilih (redudan)
+- Data dapat diakses kapanpun selama ada internet
+- Bucket names harus unik dari semua bucket yang ada di Amazon S3
+- S3 Storage Classes
+  1. S3 Standard
+  2. S3 Intelligent Tiering
+  3. S3 Standard-IA (infrequent access)
+  4. S3 One Zone-IA
+  5. Glacier Instant Retrieval
+  6. Glacier Flexible Retrieval
+  7. Glacier Deep Archive
+
