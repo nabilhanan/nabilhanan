@@ -266,3 +266,44 @@ Topic 12: Amazon Simple Storage Services (S3)
   6. Glacier Flexible Retrieval
   7. Glacier Deep Archive
 
+Day 6 24 November 2022  
+Topic 13 Amazon EC2  
+- contoh penggunaan ec2: server aplikasi, web, database, game, mail, media, catalog, file, proxy, compute.
+- menyediakan VM di komputasi awan.
+- menggunakan Amamzon Machine Images (AMIs) untuk menjalankan VM
+- keuntungan AMI: repeatability, reusability, recoverability
+- instance type: general purpose, compute purpose, memory optimized, accelerated computing, storage optimized
+- instance type naming: family name + generation number + size (ex: t3.large) 
+- Konfigurasi untuk membuat EC2 Instance
+  1. Memilih AMI (template yang digunakan untuk membuat instances)
+  2. Memilih tipe instance (memory, CPU, storage, network performance)
+  3. Tentukan konfigurasi jaringan (VPC & IP public)
+  4. Tambahkan IAM role (opsional)
+  5. Tambahkan user data script (opsional)
+  6. Tentukan penyimpanan (root volume: Amazon EBS, EC2 instance store | additional volume: Amazon s3)
+  7. Menambahkan tag pada instance
+  8. Tambahkan security group (firewall rules, port, protocol, & source IP configuration)
+  9. Tambahkan key pair (public & private key)
+- EC2 pricing models:
+  1. On-demand instances (development/testing, hanya sebentar)
+  2. Reserved instance
+  3. Spot instance (lelang dari reserved instance)
+  4. Dedicated host
+  5. Dedicated instances
+ 
+Modul 2: Linux  
+Topik 1: Introduction Linux  
+- Linux adalah operating system hardware.
+- Open soure, multi user + multi tasking, dibuat untuk menjalankan jaringan, menyediakan system tools dan utilies.
+- Dibuat tahun 1991 oleh Linus Torvalds.
+- Modular, stabil, biasa digunakan untuk os server.
+- Bisa juga digunakan untuk os dekstop
+- Distro/distribution adalah versi custom dari Linux
+- Debian > personal dekstop
+- Komponen utama Linux
+  1. Kernel: program inti dari OS, seperti mengatur prosesor time, alokasi memori, akses ke IO, file system, resource allocation
+  2. Daemon: program komputer yang berjalan di belakang layar, tanpa bisa dikontrol langsung oleh user (system service). Biasanya penamaan program diakhiri d (sysd)
+  3. Application: Software yang digunakan user daily seperti browser
+  4. Data file: Informasi yang digunakan program atau user
+  5. configuration file: menyimpan konfigurasi sistem (/etc/group, .cnf .conf .cfg .cf .ini)
+- Red Hat > networking
