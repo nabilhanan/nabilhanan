@@ -290,7 +290,8 @@ Topic 13 Amazon EC2
   3. Spot instance (lelang dari reserved instance)
   4. Dedicated host
   5. Dedicated instances
- 
+
+Day 6 - 27 November 2023
 Modul 2: Linux  
 Topik 1: Introduction Linux  
 - Linux adalah operating system hardware.
@@ -307,3 +308,40 @@ Topik 1: Introduction Linux
   4. Data file: Informasi yang digunakan program atau user
   5. configuration file: menyimpan konfigurasi sistem (/etc/group, .cnf .conf .cfg .cf .ini)
 - Red Hat > networking
+- Command Line Interface (CLI):
+  1. menggunakan lebih sedikit sumber daya hardware
+  2. dapat di automasi menggunakan script
+  3. menyediakan lebih banyak opsi
+  4. kebanyakan linux server menggunakan CLI
+- Graphical User Interface (GUI):
+  1. menggunakan visual yang lebih intuitif
+  2. kebanyakan pc menggunakan GUI
+- Shell: seperti mode command promt khusus untuk tiap tools
+  1. sh: original bourne shell for Unix
+  2. bash: bourne-again shelldigunakan untuk net
+  3. ksh: kornshell, common unix shell
+- man: manual pages command
+- linux syntax: man + <commandName>
+- terdiri dari name, synopsis, description, options.
+- navigasi dokumentasi: arrow up down, page up down, space, q untuk keluar
+- major distribution (distro):
+  1. Fedora > RHEL (Red Hat Enterprise Linux) > (AWS Linux 2 || CentOS) (yum)
+  2. Debian > Ubuntu (apt)
+  3. OpenSUSE > SUSE Enterprise Linux
+- AWS Linux 2 di desain untuk aws virtual machine
+
+Topic 2: Linux Command Line - Linux Fundamental  
+- login workflow, inux commmand syntax, basic operation, standar input
+- login prompt: untuk masuk ke os menggunakan username dan password
+- file configuration password: /etc/passwd di cek terhadap /etc/shadow
+- /home/username: user profile disimpan (home directory), file setelah login (default present working directory), dapat di cek dengan pwd untuk mengetahui posisi file saat ini
+- linux command prompt:
+  1. command + option + argument
+  2. command: apa yang akan dilakukan linux
+  3. option: modifikasi command yang digunakan
+  4. argument: objek apa yang dilakukan command tsb (opsional)
+
+lab  
+1. session > hostname (ip address) = public ip
+2. connection > keepalive = 30
+3. SSH > auth > credential >  = .ppk (private key)
