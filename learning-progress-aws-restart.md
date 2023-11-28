@@ -345,3 +345,68 @@ lab
 1. session > hostname (ip address) = public ip
 2. connection > keepalive = 30
 3. SSH > auth > credential >  = .ppk (private key)
+
+Day 7 - 28 November 2023  
+Topic 3: Linux User and Group  
+Manage User  
+- merepresentasikan user dari sistem
+- informasi user dapat disimpan di local atau server lain
+- jika di simpan di lokal disimpan di /etc/passwd
+- best practice: satu user per akun
+- jangan membagikan akun
+- /etc/passwd: namauser:userpassword(encrypted):userid:groupid:userdesc:homedirectory(/home/anan):usershell(/bin/sh)
+- default user accounts: root:x:0:0:root:/root:/bin/bash
+- useradd command: membuat user account baru, membuat home directory baru /home/userbaru
+- useradd + <option> + <username> > tidak menambahkan password di user baru
+- adduser > sekaligus dengan menambahkan password di user baru
+- option:
+  1. -c: comment > useradd -c "new employee" jdoe
+  2. -e: account expiration > useradd -e 2025-01-01 jdoe
+  3. -d: home directory path > useradd -d /user/jdoe jdoe
+- usermod command: mengubah informasi di dalam akun user yang sudah ada
+- usermod + <option> + <username>
+- option:
+  1. -c: comment > usermod -c "mary major" mmajor
+  2. -e: account expiration > usermod -e 2025-01-01 mmajor
+- userdel command: menghapus akun user sekaligus home directorynya (tambahkan option -r) 
+- userdel + <option> + <username>
+- passwd command: menambahkan/mengubah password pada akun user
+- passwd + <username>
+
+managing groups  
+- group: kumpulan akun
+- disimpan di /etc/group
+- memudahkan konfigurasi pemberian akses pada semua anggota grup
+- /etc/group: group:grouppassword:groupid:groupmember
+- command:
+  1. groupadd: membuat grup baru
+  2. groupmod: mengubah grup
+  3. groupdel: menghapus grup
+- menambahkan user ke grup: usermod atau gpasswd
+- gpasswd + <option> + <username> + <usergroup>
+
+manage permission  
+- root user: akses dan merubah semua file, control service, manage semua akun, manage harware, manage linux kernel, manage software
+- standard user: akses dan control file yang diberikan permission, akses terbatas untuk manage sistem
+- security best practice: jangan login ke sistem dengan akun root
+- login dengan standar user dan tambahkan permission jika dibutuhkan
+- root(#) standard($)
+- su root: berpindah ke akun root dengan direktori user sekarang
+- su - root: berpindah ke akun root dengan direktori root
+- /etc/sudoers: memberikan permission ke user standar untuk dapat melakukan command sudo
+
+AWS IAM  
+- digunakan untuk memanage user di console aws
+
+Topic 4: Editing file in linux  
+- vim nano gedit
+- vim: hampir ada di semua distro linux
+- dapat menambahkan macro dan key sequencial
+- vim tidak punya tombol menu
+- vim ada 2 mode:
+  1. command mode: x(delete), G(move to last line), gg(move
+  2. insert mode: edit file
+- most common Vim commands:
+  1. i > insert mode
+  2. esc > command mode
+  3. : > ex command
