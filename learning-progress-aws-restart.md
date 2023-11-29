@@ -377,9 +377,9 @@ lab
 - koneksi SSH biasanya menggunakan port 22  
 
 Usefull Commands  
-- whoami: menampilkan user saat ini
+- whoami: menampilkan user yang login saat ini
 - id: menampilkan uid, group id, group name
-- hostname: menampilkan TCP/IP hostname (server/IP)
+- hostname: menampilkan nama komputer/server yang digunakan (TCP/IP hostname, server/IP)
 - uptime: menampilkan waktu uptime server sejak terakhir kali booting
 - date: menampilkan tanggal, mengatur tanggal sistem
 - cal: menampilkan calendar
