@@ -350,22 +350,48 @@ Linux Distribution
   3. OpenSUSE (German company SUSE) > SUSE Enterprise Linux
 - AWS Linux 2 di desain untuk aws virtual machine
 
-Topic 2: Linux Command Line - Linux Fundamental  
-- login workflow, inux commmand syntax, basic operation, standar input
+Topic 2: Linux Command Line  
+- Materi: login workflow, linux command syntax, basic operation on command line, standrad input, output, and error.  
+
+Linux Login Workflow  
+- login dimulai dengan memasukkan username dan password (jika diminta)
+- username akan dicocokkan dengan /etc/psswd dan password akan dicocokkan dengan /etc/shadow
+- password tidak akan di tampilkan di terminal (does not echo)
 - login prompt: untuk masuk ke os menggunakan username dan password
 - file configuration password: /etc/passwd di cek terhadap /etc/shadow
-- /home/username: user profile disimpan (home directory), file setelah login (default present working directory), dapat di cek dengan pwd untuk mengetahui posisi file saat ini
+- /home/username: user profile directory (home directory), direktory setelah login (default user working directory), dapat di cek dengan pwd untuk mengetahui posisi file saat ini
+- pwd dan whoami untuk best practice mengecek lokasi direktori dan username
+
+Linux Command Prompt  
+- default linux shell menggunakan bash
+- command systax linux case-sensitive
 - linux command prompt:
   1. command + option + argument
   2. command: apa yang akan dilakukan linux
-  3. option: modifikasi command yang digunakan
-  4. argument: objek apa yang dilakukan command tsb (opsional)
-
+  3. option: modifikasi command yang digunakan (opsional)
+  4. argument: objek apa yang dilakukan command tsb
 lab  
 1. session > hostname (ip address) = public ip
 2. connection > keepalive = 30
 3. SSH > auth > credential >  = .ppk (private key)
-- koneksi SSH biasanya menggunakan port 22
+- koneksi SSH biasanya menggunakan port 22  
+
+Usefull Commands  
+- whoami: menampilkan user saat ini
+- id: menampilkan uid, group id, group name
+- hostname: menampilkan TCP/IP hostname (server/IP)
+- uptime: menampilkan waktu uptime server sejak terakhir kali booting
+- date: menampilkan tanggal, mengatur tanggal sistem
+- cal: menampilkan calendar
+- clear: clear layar terminal
+- echo: mencetak text pada terminal
+- history: menampilkan riwayat perintah yang telah digunakan. disimpan di /home/username/bash_history
+- touch: membuat file kosong baru, mengubah file, mengubah timestamp di file yg telah ada
+- cat: menampilkan isi dari suatu file di terminal
+
+Additional Commands  
+- #0 standard in (stdin), #1 standard out (stdout), #2 standard error (stderr)
+- tekan tab 2x untuk menampilkan semua pilihan yang sesuai untuk menyelesaikan command
 
 Day 7 - 28 November 2023  
 Topic 3: Linux User and Group  
