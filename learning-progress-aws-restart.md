@@ -457,3 +457,61 @@ Topic 4: Editing file in linux
   1. i > insert mode
   2. esc > command mode
   3. : > ex command
+
+Day 8 - 29 November 2023  
+Topic 5: Working with File System  
+- Materi: Navigasi file dan folder di linux, basic commands untuk mengatur files dan folder, membandingkan absolute dan relative path
+
+Navigating Files and Directories  
+- Semua di linux adalah file
+- commands, hardware, directories, devices, semua di representasikan sebagai file.
+- File system: cara untuk memberi nama, mengambil data, organisir data yang ada di storage disk
+
+- head: menampilkan 10 baris pertama dari file, dapat menampilkan multiple file
+- tail: menampilkan 10 baris terakhir dari file. opsi -n <jumlahbaris>
+- cp: menyalin file atau folder. secara default meng overwrite file lama dengan yang baru dengan nama yang sama. cp + option + <filename> + <destination>
+- rm: menghapus file atau folder. opsi -rf menghapus folder dan isinya. rm + option + <filename>
+- mkdir: membuat direktori baru. opsi -m untuk set permission, -p untuk set parent. mkdir + option + <filename>
+- mv: memindahkan file ke folder lain. mv + option + <destination>. digunakan untuk merename folder.
+- rmdir: menghapus folder kosong. rmdir + <namafolder>
+- pwd: mengetahui posisi direktori saat ini.
+
+Absolute vs Relative Paths  
+- path: lokasi dari file.
+- absolute path: complete path dari root ke file. Contoh: /home/userA/Documents/projects
+- relative path: jalur ke file dari direktori saat ini. Misal sekarang berada di /home/userA, maka relative path ke projects adalah /Documents/projects
+- cd: berpindah antar directory. bisa menggunakan relative path atau absolute path.
+- cd .. untuk berpindah satu direktori ke belakang. cd ../.. untuk berpindah dua direktori ke belakang dan seterusnya
+
+Topic 6: Working with files  
+- hash: menampilkan program yang sedang berjalan, terletak di lokasi mana dan seberapa sering. hash + option + command
+- cksum: memeriksa apakah file corrupt atau tidak berdasarkan checksum
+- find: mencari file pada direktori spesifik
+- grep: mencari isi file dengan kata spesifik di dalam file, atau mencari file di folder
+- grep <string> <dimana>
+- diff: membandingkan antar file line-by-line dan menampilkan perbedaannya
+- diff <file1> <file2>
+- ln (link): membuat shortcut berdasarkan value inode.
+- hardlink: ln <option> <originalfilename> <linkname> (tidak dapat membuat shortcut untuk directory, jika file origin dihapus masih bisa diakses karena merefer ke inode)
+- symlink: ln -s <options> <originalfilename> <linkname>
+- tar: mengkompres beberapa file menjadi satu tarball.tar
+- bundle and compress: tar -cvf tarball.tar file1 file2 file3
+- ekstrak: tar -xf tarball.tar
+- gzip: kompres dan ekstrak files, termasuk tarballs
+- compres: gzip tarball.tar
+- decompress: gzip -d tarball.tar
+- zip sama dengan gzip hanya harus install dependencies terlebih dahulu
+- compress: zip -r <foldername>
+- decompress: unzip <foldername>
+
+Permission  
+- file type: d(directory), -(file), l(link)
+- r(read), w(write), x(execute)
+
+permission modes  
+- symbolic mode: chmod g+w file1
+- absolute mode: chmod 764 file2
+
+komponen permission (drwxrwxrwx) ls - l
+d(filetype) + rwx(user/owner permission) + rwx(group permission) + rwx(other permission)
++ jumlah file link + owner file + group owner + ukuran file + timestamp last modified + nama file
