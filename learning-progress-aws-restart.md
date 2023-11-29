@@ -1,6 +1,7 @@
 ## Progres Belajar AWS re/Start Youth Development Program - Accenture, BenihBaik & Orbit Future Academy
 
-Day 1 - 18 November 2023. Topic 1: Introduction, Cloud Foundations  
+Kick Off - 18 November 2023.  
+Topic 1: Introduction, Cloud Foundations  
 
 Programs Overview  
 - AWS re/Start in collaboration with Orbit Future Academy offers a free and intensive 12-week program providing an opportunity to building a career in Cloud.
@@ -33,7 +34,8 @@ Rules & Regulation
 4. Peserta yg hadir dibawah 1/2 total durasi kelas dianggap absen.
 5. Peserta yg izin/absent wajib mengisi form.
 
-Day 2 - 20 November 2023. Topic 2: Basic Computing Concepts  
+Day 1 - 20 November 2023.  
+Topic 2: Basic Computing Concepts  
 Materi  
 - Mendeskripsikan server dan data center
 - Membahas teknologi komputer yang memungkinkan teknologi cloud computing
@@ -101,7 +103,7 @@ Topic 4: What is Cloud Computing
   2. Hybrid: gabungan antara cloud dan on-premise
   3. Private: Biaya awal besar, kapasitas tetap, biaya operasional tambahan untuk karyawan patch dan upgrade, fokus tambahan ke sistem administrasi
 
-Day 3 - 21 November 2023.  
+Day 2 - 21 November 2023.  
 Soft-Skill learning: Who am I  
 onetonline.org
 
@@ -141,7 +143,7 @@ Dibagi menjadi tiga
 2. Storage: biasanya dihitung per GB
 3. Data Transfer: biasanya dihitung per GB. 
 
-Day-4 22 November 2023  
+Day 3 - 22 November 2023  
 Soft Skills: Main Goal  
 - What is time management? kemampuan untuk mengontrol bagaimana menggunakan waktu dengan baik
 - mengapa harus manajemen waktu? mencapai tujuan lebih cepat, melakukan lebih dalam waktu yang lebih sedikit, mencapai work life balance
@@ -184,7 +186,7 @@ Topic 9: Fundamental Pricing
 - Custom pricing: memberikan layanan lbih tergantung kebutuhan khusus
 - AWS free tier: 1 tahun gratis untuk akun baru
 
-Day 5 23 November 2023  
+Day 4 - 23 November 2023  
 Soft Skill: Communication  
 - Non-verbal communication: komunikasi tanpa menggunakan bahasa, seperti ekspresi wajah, postur, dan intonasi suara.
 - Kongruensi: Pastikan ekspresi wajah dan intonasi sesuai dengan pesan yang disampaikan.
@@ -266,8 +268,8 @@ Topic 12: Amazon Simple Storage Services (S3)
   6. Glacier Flexible Retrieval
   7. Glacier Deep Archive
 
-Day 6 24 November 2022  
-Topic 13 Amazon EC2  
+Day 5 - 24 November 2022  
+Topic 13: Amazon EC2  
 - contoh penggunaan ec2: server aplikasi, web, database, game, mail, media, catalog, file, proxy, compute.
 - menyediakan VM di komputasi awan.
 - menggunakan Amamzon Machine Images (AMIs) untuk menjalankan VM
@@ -293,21 +295,30 @@ Topic 13 Amazon EC2
 
 Day 6 - 27 November 2023
 Modul 2: Linux  
+
 Topik 1: Introduction Linux  
+- Materi: pengertian linux, fitur utama dan komponen os linux, perbedaan UI linux, built-in linux documentation, beberapa distro linux.  
+
+Apa itu Linux?  
 - Linux adalah operating system hardware.
-- Open soure, multi user + multi tasking, dibuat untuk menjalankan jaringan, menyediakan system tools dan utilies.
-- Dibuat tahun 1991 oleh Linus Torvalds.
-- Modular, stabil, biasa digunakan untuk os server.
-- Bisa juga digunakan untuk os dekstop
-- Distro/distribution adalah versi custom dari Linux
-- Debian > personal dekstop
+- hardware: komponen fisik komputer, seperti cpu ram strorage dan network card
+- os: interface diantara hardware dan software, menjalankan aplikasi
+- os linux: open soure, multi user + multi tasking, dibuat untuk menjalankan jaringan, menyediakan system tools dan utilies.
+- Dibuat tahun 1991 oleh Linus Torvalds, modular, stabil, biasa digunakan untuk os server, bisa juga digunakan untuk os dekstop
+- Distro/distribution adalah versi custom dari Linux, debian > personal dekstop, fedora > networking.
+
+Komponen Linux  
 - Komponen utama Linux
-  1. Kernel: program inti dari OS, seperti mengatur prosesor time, alokasi memori, akses ke IO, file system, resource allocation
-  2. Daemon: program komputer yang berjalan di belakang layar, tanpa bisa dikontrol langsung oleh user (system service). Biasanya penamaan program diakhiri d (sysd)
-  3. Application: Software yang digunakan user daily seperti browser
-  4. Data file: Informasi yang digunakan program atau user
-  5. configuration file: menyimpan konfigurasi sistem (/etc/group, .cnf .conf .cfg .cf .ini)
-- Red Hat > networking
+  1. Kernel: fungsi inti sistem operasi, seperti mengatur prosesor time, alokasi memori, akses ke IO, file system, resource allocation. 
+  2. Daemon: memberikan dukungan tambahan untuk sistem dan pengguna, program komputer yang berjalan di belakang layar, tanpa bisa dikontrol langsung oleh user (system service). Biasanya penamaan program diakhiri d (syslogd, sshd)
+  3. Application: Software yang digunakan user daily seperti browser, text editor
+  4. Data file: konten pengguna seperti file text, file music, file gambar, dll
+     - file naming: [/directoryname]filename[.extension(optional)]
+     - myFile
+     - /picture/dog.gif
+  6. Configuration file: menyimpan konfigurasi sistem, service, dan aplication yang disimpan dalam bentuk text file (.cnf .conf .cfg .cf .ini)
+
+Linux Interfaces  
 - Command Line Interface (CLI):
   1. menggunakan lebih sedikit sumber daya hardware
   2. dapat di automasi menggunakan script
@@ -317,17 +328,26 @@ Topik 1: Introduction Linux
   1. menggunakan visual yang lebih intuitif
   2. kebanyakan pc menggunakan GUI
 - Shell: seperti mode command promt khusus untuk tiap tools
-  1. sh: original bourne shell for Unix
-  2. bash: bourne-again shelldigunakan untuk net
-  3. ksh: kornshell, common unix shell
+- Saat Anda menggunakan CLI, pemilihan shell menentukan daftar perintah dan fungsi yang dapat dijalankan.
+- Shell meng-interpret (menafsirkan/menerjemahkan) perintah yang di masukkan dan memanggil komponen kernel yang sesuai yang menjalankan perintah tersebut.
+- Setiap shell memiliki sintaks atau formatting command sendiri.
+- Shell menyediakan command prompt
+- Default linux shell adalah bash shell.
+  1. sh: original Bourne shell for Unix
+  2. bash: The Bourne-again shell, default linux shell
+  3. ksh: The KornShell, common Unix shell
+
+Linux Documentation  
 - man: manual pages command
 - linux syntax: man + <commandName>
-- terdiri dari name, synopsis, description, options.
-- navigasi dokumentasi: arrow up down, page up down, space, q untuk keluar
+- terdiri dari name (nama dan deskipsi singkat perintah), synopsis (syntax dari perintah), description (deskripsi detail dari perintah), options (daftar opsi yang dapat digunakan di perintah).
+- navigasi dokumentasi: arrow up down, page up down, space, q untuk keluar, /<searchString> untuk mencari kata kunci di manual  
+
+Linux Distribution  
 - major distribution (distro):
-  1. Fedora > RHEL (Red Hat Enterprise Linux) > (AWS Linux 2 || CentOS) (yum)
-  2. Debian > Ubuntu (apt)
-  3. OpenSUSE > SUSE Enterprise Linux
+  1. Fedora (Red Hat + IBM company) > RHEL (Red Hat Enterprise Linux) > (AWS Linux 2 || CentOS) (yum)
+  2. Debian (British company Canonical.ltd > Ubuntu (apt)
+  3. OpenSUSE (German company SUSE) > SUSE Enterprise Linux
 - AWS Linux 2 di desain untuk aws virtual machine
 
 Topic 2: Linux Command Line - Linux Fundamental  
@@ -345,6 +365,7 @@ lab
 1. session > hostname (ip address) = public ip
 2. connection > keepalive = 30
 3. SSH > auth > credential >  = .ppk (private key)
+- koneksi SSH biasanya menggunakan port 22
 
 Day 7 - 28 November 2023  
 Topic 3: Linux User and Group  
