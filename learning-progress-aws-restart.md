@@ -513,5 +513,33 @@ permission modes
 - absolute mode: chmod 764 file2
 
 komponen permission (drwxrwxrwx) ls - l
-d(filetype) + rwx(user/owner permission) + rwx(group permission) + rwx(other permission)
-+ jumlah file link + owner file + group owner + ukuran file + timestamp last modified + nama file
+d(filetype) + rwx(user/owner permission) + rwx(group permission) + rwx(other permission) + jumlah file link + owner file + group owner + ukuran file + timestamp last modified + nama file
+
+Day 9 - 30 November 2023  
+Topic 7: Linux Permission  
+- chown: merubah kepemilikan file. chown userbaru:groupbaru file
+- chmod: merubah permission file
+- symbolic permission: chmod identity+operator+permission file (chmod u+x file1)
+  - identity: u(user), g(group), o(other)
+  - permission: r(read), w(write), x(execute)
+  - operator: +(grant permission), -(removes permission), =(remove permission, set new one)
+- absolute permission: chmod valueuser+valuegroup+valueother file (chmod 400 file1)
+  - basic value: 1(execute), 2(write), 4(read), 7(all permission)
+  - kombinasi permission dijumlah dari basic value
+
+Topc 8: Working with commands  
+- special character di bash shell: space, metacharacter, redirection operator
+- space: delimiter/separator
+- metacharecter:
+  - *: semua karakter (wildcard)
+  - ?: satu karakter aja
+  - []: semua kombinasi di antara kurung siku
+  - `` atau $(): substitute character
+- redirection operator:
+  - > : mengirim output command ke file, overwrite semua data
+  - >> : masih menyimpan data lama
+  - 2> : mengirim error ke file, overwrite
+  - 2>> : mengirim error ke file, menyimpan data lama
+  - | : menjalankan command secara berurutan menggunakan output command pertama untuk input command kedua
+  - 
+  -  
