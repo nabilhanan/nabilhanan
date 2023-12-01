@@ -542,4 +542,28 @@ Topc 8: Working with commands
   - 2>> : mengirim error ke file, menyimpan data lama
   - | : menjalankan command secara berurutan menggunakan output command pertama untuk input command kedua
   - 
-  -  
+
+Topic 9: managing process in linux  
+- program: kumpulan instruksi yang diberikan ke komputer untuk memberitahu komputer apa yang harus dilakukan
+- program ada 2, sistem program dan aplikasi program
+- echo $PATH
+- ps
+- pstree
+- states of a process: start > ready > running > stopped
+  - start: proses dimulai
+  - ready: proses menunggu untuk ditambahkan
+  - running: proses berjalan
+  - waiting: proses menunggu event
+  - stopped:proses telah selesai
+- child process: proses yang ditunggu oleh parent process untuk kembali runing
+- Basic comman managing process
+  - ps: melihat proses saat ini yang berjalan di os (proces status)
+  - pidof: melihat pid program
+  - pstree: menampilkan seluruh proses berjalan dalam bentuk tree format, untuk mengetahui parent process dan child process
+  - top: melihat proses berjalan secara real-time (seperti task manager)
+  - kill: terminate process dengan pid
+  - nice
+  - renice
+  - jobs: menampilkan apakah ada bg process. bg untuk meminimize fg untuk menjalankan
+  - at: scheduling sekali
+  - cron: scheduling rutin
