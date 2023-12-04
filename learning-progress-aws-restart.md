@@ -567,3 +567,46 @@ Topic 9: managing process in linux
   - jobs: menampilkan apakah ada bg process. bg untuk meminimize fg untuk menjalankan
   - at: scheduling sekali
   - cron: scheduling rutin
+
+Day 11 - 4 November 2023  
+Topic 10: Managing Services  
+- systemctl: systemctl <subcommand> <servicename>
+- digunakan untuk troubleshooting jika ada service yang tidak bekerja.
+- beberapa subcommands systemctl: status, start, stop, restart, enable, disable
+- System performance monitoring:
+  - lscpu: cpu information
+  - lshw: list hardware
+  - df: disk free usage
+  - vmstat: virtual memory usage
+  - free: physical memory usage
+  - top: task manager
+  - uptime: waktu komputer hidup
+
+Topic 12: Bash Shell  
+- bash shell: the bourne again shell
+- apa itu shell?
+  - shell menerima dan mengintepretasikan command
+  - shell adalah sebuah environtment dimana command program dan shell scripts dijalankan
+- variable shell: untuk menyimpan nilai, dapat berupa string number atau special character. secara default berupa string
+- name=value, user defines variable, tanpa spasi
+- variable syntax structure:
+  - user defines variables lowercase
+  - Environtment (system) variable capitalized (uppercase)
+  - diawali karakter huruf
+  - tidak menggunakan spasi, gunakan underscores
+- echo $variable_name: menampilkan nilai variable
+- KEY=VALUE, environtment variable, tanpa spasi
+- beberapa contoh env variable: $HOME $PATH $SHELL $USER
+- env command: env <option)
+  - env aja: mengetahui env variable yang ada
+- inisialisasi proses bash environtment files:
+  1. user login
+  2. default system shell starts
+  3. /etc/profil file is run (konfigurasi file profile, tipe shell)
+  4. login menggunakan shell dari user
+  5. /home/user/.bashrc file is run
+- alias command: alias alias_name='command', untuk membuat alias baru untuk command beserta optionnya
+- unalias command: untuk menghapus alias: unalias alias_name
+- alias bersifat sementara, akan hilang jika di restart
+- jika ingin membuat alias permanen edit di .bashrc
+- $PATH: untuk menambah nilai ke nilai yang sudah ada di variable
