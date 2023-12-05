@@ -617,3 +617,105 @@ Topic 12: Bash Shell
 - alias bersifat sementara, akan hilang jika di restart
 - jika ingin membuat alias permanen edit di .bashrc
 - $PATH: untuk menambah nilai ke nilai yang sudah ada di variable
+
+Day 12 - 5 November 2023  
+Topic 13: Shell scripts  
+- script adalah kumpulan command dalam sebuah text file
+- cara membuat script:
+  1. membuat script di text editor
+  2. memberi permission execute
+  3. jalankan dengan ./
+- #!/bin/bash: wajib untuk memulai script.
+- Scripts syntax
+  - #-character: untuk menampilkan komentar, menghiraukan baris tsb
+  - #!-character: shebang, pada baris pertama untuk menunjukkan script yang dijalankan menggunakan shell/bahasa apa. misalkan script ditulis menggunakan bahasa python maka shebang diarahkan ke direktory python.
+  - script documentation: title, purpose, authors name, contact information, special instruction with examples
+  - bash variable: name=value atau KEY=VALUE
+- operator:
+  - =-: assign variable to a string
+  - $-: evaluate variable
+  - +-: math operation
+  - argument: menggunakan $<argumen> untuk menampung nilai dari pengguna
+  - expression: $((<expression>)), untuk operasi aritmatic, karena secara default bash shell menganggap semua variabel berbentuk string
+  - conditional statements: if [<statement] + then + fi
+    - $?: menanyakan hasil dari suatu command
+   
+logical conditional statement  
+- if statement:
+  - jika command pertama berhasil dengan exit code 0 (success), command selanjutnya dijalankan
+  - keyword then jika condition terpenuhi
+  - diakhiri dengan fi keyword
+  - exit code 0 untuk berhasil 1 untuk gagal
+- contoh:
+  - if<condition>
+  - then
+  - <command>
+  - fi
+  - atau dengan ditulis satu baris dipisahkan semicolon
+  - if<condition>;then<command>;fi
+- if-else statement:
+  - kondisi benar setelah then, kondisi salah setelah else
+- contoh
+  - if<condition>
+  - then
+  - <command>
+  - else
+  - <condition>
+  - fi
+- if-elif-else statement:
+  - if bersarang
+  - -gt: greater than (>)
+  - -lt: lower than (<)
+- test command: check file types dan compare value
+  - 0 for true, 1 for false
+- integer comparison operator:
+  - -eq: equal to(=)
+  - -ne: not equal to
+  - -gt: greater than
+  - -ge: greater than or equal to
+  - -lt: less than
+  - -le: less than or equal to
+  - kurung siku mengevaluasi kondisi berdasarkan exit status
+  - dobel kurung biasa mengevaluasi kondisi dari operasi aritmatika
+- loop statement: untuk mengulang command
+  - for statement: mengulang sebanyak nilai yang ditentukan
+  - for <variable> in <banyaknya>
+  - do
+  - command
+  - done
+  - while statement: mengulang selama kondisi bernilai true
+  - while<condition>
+  - do
+  - command
+  - done
+  - until statement: mengulang selama kondisi salah, akan berenti jika bernilai benar
+  - until<condition>
+  - do
+  - command
+  - done
+- break: stop entire loop
+- continue: menskip command dibawahnya tapi tetap melanjutkan loop
+- read: membaca user input dan memasukkan nilai ke variabel di script
+- true and false: expresi boolean di bash shell
+- exit command:
+  - exit 0: program comlete without error
+  - exit 1: program has an error
+  - exit n: program has a speciffic error
+- substitution command: memasukkan comman didalam comman menggunakan backtick`
+
+Topic 14: Software Management  
+- Red Hat method
+  - menggunakan Red Hat Package Manager (RPM) dengan .rpm file extension
+  - menggunakan yum untuk berinteraksi dengan RPM
+- Debian method
+  - menggunakan dpkg package manager dengan .deb file extension
+  - menggunakan apt (advanced package tool) untuk berinteraksi dengan dpkg packet manager
+- install from source code
+  - menggunakan GNU Compiler Collection (GCC) compiler
+- package manager mengelola: install update inventory uninstall
+- packages berisi: precompiled code, documentation, instalation instruction
+- yum <option> <command> <package>
+- yum list <package> | grep <package>
+- wget dan curl: mendapatkan file dari server lain
+- wget dapat melakukan recursive download, http https dan ftp, dapat berjalan di koneksi tidak bagus
+- curl: download 
