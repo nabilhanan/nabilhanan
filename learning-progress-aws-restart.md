@@ -395,7 +395,9 @@ Additional Commands
 
 Day 7 - 28 November 2023  
 Topic 3: Linux User and Group  
-Manage User  
+- Materi: manage user accounts, manage group accounts, elevate permission with su and sudo, AWS I AM
+
+Managing User  
 - merepresentasikan user dari sistem
 - informasi user dapat disimpan di local atau server lain
 - jika di simpan di lokal disimpan di /etc/passwd
@@ -407,7 +409,7 @@ Manage User
 - useradd + <option> + <username> > tidak menambahkan password di user baru
 - adduser > sekaligus dengan menambahkan password di user baru
 - option:
-  1. -c: comment > useradd -c "new employee" jdoe
+  1. -c: comment (memberi user description) > useradd -c "new employee" jdoe
   2. -e: account expiration > useradd -e 2025-01-01 jdoe
   3. -d: home directory path > useradd -d /user/jdoe jdoe
 - usermod command: mengubah informasi di dalam akun user yang sudah ada
@@ -431,8 +433,13 @@ managing groups
   3. groupdel: menghapus grup
 - menambahkan user ke grup: usermod atau gpasswd
 - gpasswd + <option> + <username> + <usergroup>
+  - -a: --add, menambahkan user ke group
+  - -d: --delete, menghapus user dari group
+  - -M: --members user1,user2,.., menambahkan banyak user ke group
+  - -A: --administrators admin1,admin2,.., menambahkan beberapa administrator group
+- usermod + <option> + <usergroup> + <username>
 
-manage permission  
+User Permission  
 - root user: akses dan merubah semua file, control service, manage semua akun, manage harware, manage linux kernel, manage software
 - standard user: akses dan control file yang diberikan permission, akses terbatas untuk manage sistem
 - security best practice: jangan login ke sistem dengan akun root
