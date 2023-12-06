@@ -718,4 +718,57 @@ Topic 14: Software Management
 - yum list <package> | grep <package>
 - wget dan curl: mendapatkan file dari server lain
 - wget dapat melakukan recursive download, http https dan ftp, dapat berjalan di koneksi tidak bagus
-- curl: download 
+- curl: download sekali jalan
+- lastlog command: menampilkan informasi login terbaru
+- log rotation: untuk mengelola log dengan membatasi seberapa lama log disimpan
+
+Day 13 - 6 Desember 2023  
+Topic 14: File log  
+- log: menyimpan catatan apa yang terjadi di sistem, untuk membantu audit
+- tipe log:
+  - system log: system startup/shutdown information and times
+  - events log: user login and logout events
+  - application log: startup time, actions, and error
+  - service log
+- pentingnya logging: security audits, service level agreements (SLAs), proactive troubleshooting, industry requirement.
+- /var/log: direktori log
+- logging level:
+  - 0-emergency: system unstable
+  - 1-alert: immediate action is needed
+  - 2-critical: critical error, system may be unusable
+  - 3-error: non-critical error
+  - 4-warn: default log level on linux distribution
+  - 5-notice: normal event with significant importance
+  - 6-info
+  - 7-debug
+- cat, tail, head, less: usual command to view the log
+- grep: for searching a pattern
+
+Modul 3: Networking
+Topic 1: Introduction to networking  
+- history of internet:
+  - 1960s: packet-switching theor was tested
+  - 1970s: TCP/IP was developed
+  - 1980s: dial up was introduced for email comunication
+  - 1990s: www, windows95, url was used
+  - 2000s: networking, internet, and devices evolves
+- a network is like a highway
+- a computer network is a collection of computind devices that are logically connected together to communicate and share resource
+- node: refers to any devices on the network (computer, router, printer)
+- host: node that have unique function to provide access to data and provide a service (server)
+- open system interconnection model (osi model):
+  1. physical: bit stream
+  2. data link: frame, mac address
+  3. network: packet, ip address
+  4. transport: segment, port protokol
+  5. session: memisahkan data antar aplikasi
+  6. presentation: enkripsi, dekripsi
+  7. application: header, cookies
+- networking component:
+  1. client: komputer yang digunakan user untuk mengakses data di jaringan dengan membuat request ke server.
+  2. server: perangkat untuk merespon request dari client di jaringan.
+  3. network interface card (NIC): menghubungkan komputer dengan jaringan. NIC card mempunyai mac address (media access control). NIC bekerja di layer kedua data link
+  4. network cables: menghubungkan secara fisik antar perangkat jaringan. jenisnya seperti fiber-optic, coaxial, twisted-pair(ethernet/LAN cable)
+  5. switch: menghubungkan semua nodes ke satu jaringan komputer. hanya melakukan transmisi data menggunakan mac address, bekerja di layer 2 data link
+  6. router: menghubungkan beberapa segmen jaringan (switch) dan membuat jaringan komputer yang lebih besar. router dapat melakukan trasmisi sekaligus filter data. bekerja pada layer 2 data link dan layer 3 network
+  7. modem (odp box di tiang listrik): menghubungkan router dengan isp
