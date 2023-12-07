@@ -772,3 +772,31 @@ Topic 1: Introduction to networking
   5. switch: menghubungkan semua nodes ke satu jaringan komputer. hanya melakukan transmisi data menggunakan mac address, bekerja di layer 2 data link
   6. router: menghubungkan beberapa segmen jaringan (switch) dan membuat jaringan komputer yang lebih besar. router dapat melakukan trasmisi sekaligus filter data. bekerja pada layer 2 data link dan layer 3 network
   7. modem (odp box di tiang listrik): menghubungkan router dengan isp
+
+Day 9 - 7 Desember 2023  
+Topic 3: Networking concept
+- Type of network:
+  - LAN: local area network, area geografis terbatas seperti gedung atau kantor
+  - WAN: wode area network, menghubungkan antar LAN, cakupan kota
+- Physical topologies: bus topology, star topology, hybrid topologies, mesh topologies
+- Amazon VPC
+  - subnet: network segment
+  - firewall: security group & Network access control list (NACL)
+- network management model
+  - client-server
+  - peer-to-peer
+- Network protocol: defines rules for formatting and transmitting data, work on layer 4 transport and layer 3 network
+  - connection-oriented protocol (TCP/IP)
+  - connectionless protocol (UDP)
+- TCP: handshake (SYN, SYN/ACK, ACK), goodbye handshake (FIN, FIN/ACK, ACK), RST
+- UDP
+
+Topic 4: Internet protocol  
+- IP:
+- rfc1918
+- ssh -i key.pem user@ip
+- exit untuk keluar
+
+Topic 5: Networking in AWS clouds  
+- traditional topology vs AWS
+- VPC: membuat logically isolated section
