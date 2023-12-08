@@ -797,6 +797,20 @@ Topic 4: Internet protocol
 - ssh -i key.pem user@ip
 - exit untuk keluar
 
+Day 10 - 8 Desember 2023  
 Topic 5: Networking in AWS clouds  
 - traditional topology vs AWS
 - VPC: membuat logically isolated section
+  - CIDR block
+  - subnets: segmen network di dalam vpc, biasanya dibagi menjadi public subnet dan private subnet
+  - route table: menentukan segmen private atau public
+  - internet gateway: komunikasi vpc ke internet
+  - vpc endpoint
+- scope subnet berada di AZ
+- scope VPC berada di region
+- security group: firewall di instance ec2 level, stateful
+- network ACL: firewall di subnet level, stateless
+- subnet calculator: https://www.site24x7.com/tools/ipv4-subnetcalculator.html
+
+Topic 6: introduction to subnetting  
+- ip address: alamat untuk berkomunikasi di internet
