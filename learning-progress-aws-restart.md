@@ -798,19 +798,25 @@ Topic 4: Internet protocol
 - exit untuk keluar
 
 Day 10 - 8 Desember 2023  
-Topic 5: Networking in AWS clouds  
-- traditional topology vs AWS
-- VPC: membuat logically isolated section
-  - CIDR block
-  - subnets: segmen network di dalam vpc, biasanya dibagi menjadi public subnet dan private subnet
-  - route table: menentukan segmen private atau public
-  - internet gateway: komunikasi vpc ke internet
-  - vpc endpoint
-- scope subnet berada di AZ
-- scope VPC berada di region
-- security group: firewall di instance ec2 level, stateful
-- network ACL: firewall di subnet level, stateless
+Topic 5: Networking in AWS clouds | Modul 2 - Networking Fundamentals  
+- materi: networking in the cloud, networking in VPC, component of VPC, subnetting & CISR on VPC
+
+Networking in the cloud  
+- traditional topology vs AWS service
+  - data center: Amazon VPC, scope region
+  - router(igw): route tables, menentukan segmen private/public
+  - switches(subnets): subnets, segmen network di dalam vpc, biasanya dibagi menjadi public subnet dan private subnet. Scope AZ
+  - firewall: security groups (instance scope, statefull) & network ACL (subnet scope, stateless)
+  - server & OS: EC2 instances
+  - modem: internet gateway
+- Amazon VPC: layanan untuk membuat private networks di AWS Cloud.
+  - memilih IP adress range
+  - membuat subnet
+  - konfigurasi route tables dan internet gateway
+- Amazon VPC features:
+  - dedicated to an AWS account
+  - scope satu AWS region
+  - dapat spanning multi AZ
+  - logically isolated from Amazon VPCs
 - subnet calculator: https://www.site24x7.com/tools/ipv4-subnetcalculator.html
 
-Topic 6: introduction to subnetting  
-- ip address: alamat untuk berkomunikasi di internet
