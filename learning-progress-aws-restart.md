@@ -820,3 +820,21 @@ Networking in the cloud
   - logically isolated from Amazon VPCs
 - subnet calculator: https://www.site24x7.com/tools/ipv4-subnetcalculator.html
 
+Day 11 -  11 Desember 2023  
+Topic 6: Subnetting IP
+- alasan menggunakan subnet: meningkatkan kecepatan, mengurangi network traffic, keamanan lebih baik
+- classes subnetting
+  - class a: /8 (0-126)
+  - class b: /16 (128-191)
+  - class c: /24 (192-223)
+
+Topic 7: additional networking protocol  
+- transport protocol: TCP, UDP
+- application protocol: http, ssl, tls, mail (smtp, pop,imap), remote dekstop (rdp,ssh)
+- management and support: dns, ftp, dhcp, icmp
+- TCP/IP: connection oriented protocol (SYN, SYN/ACK, ACK)
+- UDP: connectionless communication data transfer
+- HTTP: protokol untuk mengakses webpages (80)
+- HTTPS: HTTP dengan SSL/TLS protokol (443)
+- SSL: protokol standar pengamanan komunikasi
+- TLS: updated version of SSL yang lebih aman. Pembayaran membutuhkan TLS 1.2 certification
