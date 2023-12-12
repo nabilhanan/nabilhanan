@@ -5,8 +5,10 @@ Perkenalkan nama saya **Nabil Hanan**.
 Beberapa keterampilan yang saya miliki yaitu:
 - [Git dan Github](https://www.dicoding.com/certificates/JMZV13N3NXN9).<br>
 
+  
  [Linkedin](https://www.linkedin.com/in/nabil-hanan/)
 
+  
 Lain-lain:
 - [Progres Belajar](https://github.com/nabilhanan/nabilhanan/blob/main/learning-progress.md#progres-belajar)
  
