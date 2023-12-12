@@ -1,8 +1,6 @@
-# Halo semua! 
+# Halo
  
-Perkenalkan nama saya **Nabil Hanan**.<br>
- 
-Saya seorang **Fresh Gradute** dari **S1 - Teknik Komputer, Universitas Diponegoro**.<br>
+Perkenalkan nama saya **Nabil Hanan**.  
 
 Beberapa keterampilan yang saya miliki yaitu:
 - [Git dan Github](https://www.dicoding.com/certificates/JMZV13N3NXN9).<br>
