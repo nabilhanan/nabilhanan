@@ -838,3 +838,7 @@ Topic 7: additional networking protocol
 - HTTPS: HTTP dengan SSL/TLS protokol (443)
 - SSL: protokol standar pengamanan komunikasi
 - TLS: updated version of SSL yang lebih aman. Pembayaran membutuhkan TLS 1.2 certification
+
+Day 12 - 12 Desember 2023  
+- lab 267 - Build your VPC and launch a web server
+- Topic 8: additional networking technologies
