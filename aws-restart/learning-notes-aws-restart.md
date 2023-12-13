@@ -842,3 +842,74 @@ Topic 7: additional networking protocol
 Day 12 - 12 Desember 2023  
 - lab 267 - Build your VPC and launch a web server
 - Topic 8: additional networking technologies
+
+Day 13 - 13 Desember 2023  
+Modul 3: Security  
+Topic 1: Introduction to security  
+- Security is practice of protecting valuable assets
+- goal of cybersecurity: confidentiality, integrity, availability (CIA)
+- confidentiality: apakah data pribadi terproteksi untuk mencegah akses tidak diijinkan?
+- integrity: memastikan data tidak diubah dan tetap seperti aslinya
+- availability: apakah pengguna dapat mengakses data saat diperlukan?
+- Basic security terms
+  - attacker: entitas jahat yg mengganggu sistem
+  - vulnerability: kelemahan dalam sistem yang dapat dimanfaatkan penyerang
+  - threat: ancaman yang berpotensi merugikan sistem
+  - breach: serangan yang berhasil menembus sistem
+  - control: mekanisme untuk mengurangi kelemahan
+- type of threats:
+  - malware: malicious software, kumpulan perangkat lunak yang merugikan sistem komputer, mendapatkan akses. Contoh: virus, spyware, worm, remote access trojan (RAT),
+  - ransomware: membatasi akses ke sistem sampai ransom dibayar (penyalahgunaan enkripsi)
+  - denial of service: serangan untuk membanjiri sistem dengan request sehingga pengguna asli tidak dapat mengakses
+  - man in the middle: penyerang menyadap komunikasi
+  - phising: penyerang menyamar sebagai sistem untuk mengelabuhi pengguna
+  - social engineering: memanipulasi interaksi seseorang
+- security strategies
+  - What security measures to implement: security controls.
+  - When to implement security measures: security lifecycle.
+  - Who is responsible for implementing the different security measures: security responsibility (on cloud)
+- AWS shared responsibility: AWS is responsible for security OF the cloud, and the customer is responsible for the security IN the cloud.
+- Security controls: preventive, detective, corrective, ON physical, administrative, technical
+- security lifecycle:
+  1. prevention
+  2. detection
+  3. response
+  4. analysis
+
+Topic 2: Security lifecycles, prevention  
+- Prevention stops threats before they happen
+- prevention task:
+  1. Identifying assets: Create and maintain an asset inventory to identify the assets in your system.
+  2. Assessing asset vulnerability: Identify how each asset must be protected.
+  3. Implementing countermeasures: Establish a security strategy, and implement measures to protect assets
+     - network hardening
+     - system hardening
+     - data security controls
+     - identity management
+- Prevention strategies:
+  1. layered security model
+- Type of prevention measures
+  1. Network hardening measures: Implement controls to stop threats at the network level.
+  2. Systems hardening measures: Implement controls to stop threats at the host level.
+  3. Data security controls: Implement controls to protect the data.
+  4. Identity management: Implement controls for user authentication and authorization.
+
+Topic 3: Prevention, network hardening  
+- Network hardening is the activity in the layered security prevention strategy that focuses on protecting the network.
+- network discovery hardening and network architecture security hardening.
+- network securities vulnerabilites:
+  - Network mapping: Network mapping exposes the topology of a network. (ping, traceroute, nmap)
+  - Port scanning: Port scanning exposes the available protocols and services in a network. (nmap)
+  - Traffic sniffing: Traffic sniffing exposes the information that is traveling through a network. (wireshark)
+- Network discoveries hardening:
+  1. Preventing network discovery: The goal of network discovery hardening is to keep attackers off the network.
+  2. Amazon Inspector: Use Amazon Inspector to assess the network exposure of EC2
+  3. Monitor the network for suspicious activities
+  4. Limit remote administration access
+- Network architecture hardening:
+  1. Network firewall: A network firewall is a protection mechanism to filter incoming and outgoing traffic in a network.
+  2. AWS security groups: In the AWS Cloud, a security group implements a firewall to protect EC2 instances. (statefull, protocol, port number, source and destination IP address)
+  3. Intrusion prevention system (IPS): An IPS actively protects a network against threats.
+  4. AWS Network Firewall: The IPS feature of AWS Network Firewall inspects traffic flow to protect a network from vulnerability exploits.
+  5. Segmenting a network: You can use network segmentation to apply different security controls to different parts of a network.
+  6. Network access control list (network ACL): A network ACL acts like a firewall. In the AWS Cloud, it is used to protect a subnet.(stateless, subnet scope
