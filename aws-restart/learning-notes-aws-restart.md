@@ -1,4 +1,4 @@
-## Progres Belajar AWS re/Start Youth Development Program - Accenture, BenihBaik & Orbit Future Academy
+## Catatan Belajar AWS re/Start Youth Development Program - Accenture, BenihBaik & Orbit Future Academy
 
 Kick Off - 18 November 2023.  
 Topic 1: Introduction, Cloud Foundations  
@@ -913,3 +913,41 @@ Topic 3: Prevention, network hardening
   4. AWS Network Firewall: The IPS feature of AWS Network Firewall inspects traffic flow to protect a network from vulnerability exploits.
   5. Segmenting a network: You can use network segmentation to apply different security controls to different parts of a network.
   6. Network access control list (network ACL): A network ACL acts like a firewall. In the AWS Cloud, it is used to protect a subnet.(stateless, subnet scope
+
+
+Day 14 - 14 Desember 2023  
+Topic 4 - Prevention, system hardening  
+- Systems hardening is the action of securing computing systems to protect them from attacks.
+- authentication, authorization, accounting
+- Physical security also contributes to systems hardening
+- A security baseline defines the expected conditions of a system. It defines what is an acceptable state or operation of the system so that you can quickly detect anomalies
+- Common ways to harden systems
+  - Turn off unnecessary services.
+  - Control computer operations through group policies.
+  - Regularly apply patches and updates
+- Systems are not pre-hardened by default, so you must take action to secure your systems.
+- Another way to harden a system is to apply patches regularly through a centralized process.
+- For securing mobile devices, use a mobile device management (MDM) solution
+- Training and education are the most effective defenses to harden systems against social engineering and phishing attacks.
+- AWS system hardening tools:
+  - Trusted Advisor provides recommendations that help you follow AWS best practices. Trusted Advisor evaluates your account by using checks.
+  - GuardDuty is a threat detection service. GuardDuty continuously monitors your AWS accounts and workloads for malicious activity and delivers detailed security findings for visibility and remediation.
+  - AWS Shield is a managed DDoS protection service that safeguards applications that run on AWS.
+  - AWS CloudTrail offers auditing, security monitoring, and operational troubleshooting by tracking user activity and API usage.
+  - GuardDuty is a continuous security monitoring service that analyzes and processes various data sources
+ 
+Network Hardening Using Amazon Inspector and AWS Systems Manager Lab
+
+Topic 5 - prevention, data security  
+- Information must be protected to ensure its confidentiality, integrity, and availability.
+- You should use cryptographic techniques, encryption, and controls to secure data based on whether it is in motion or at rest.
+- Cryptography is the discipline that embodies the principles and techniques for providing data security, including confidentiality and data integrity.
+- Symmetric encryption uses the same key to encrypt and decrypt the data
+- Symmetric encryption is used for payment applications, to encrypt databases, and to verify the identity of the sender of a message in messaging applications (AES, IDEA, twofish, TLS/SSL for data exchange)
+- Asymmetric encryption uses both a private key and a public key (a key pair) to encrypt and decrypt the data. (RSA, DH, ElGamal, TLS/SSL SSH for establish connection & create session)
+- A hybrid encryption approach uses both symmetric encryption and asymmetric encryption to protect the data further.
+- TLS: The session is created by using asymmetric encryption, and symmetric encryption is used for the duration of the session.
+- hashes are used to verify the integrity of files that are downloaded from a website.
+- Hashing functions typically employ standard algorithms such as Secure Hash Algorithm version 1 (SHA1) and Message Digest version 5 (MD5)
+- A permission grants a specific type of access to a resource (for example, write access to a file).
+- Permissions are classified into two types: discretionary (based on identity or other criteria) and role-based (based on an assigned role).
