@@ -951,3 +951,12 @@ Topic 5 - prevention, data security
 - Hashing functions typically employ standard algorithms such as Secure Hash Algorithm version 1 (SHA1) and Message Digest version 5 (MD5)
 - A permission grants a specific type of access to a resource (for example, write access to a file).
 - Permissions are classified into two types: discretionary (based on identity or other criteria) and role-based (based on an assigned role).
+
+Day 15 - 15 Desember 2023  
+topic 6, prevention: public key infrastructure  
+- Public key infrastructure (PKI) is a collection of technologies that are used to apply cryptography principles
+- CAs are entities that deliver digital certificates, which ensure that a website is secure.
+
+Lab system hardening  
+
+Topic 7: Prevention: Identity Management
