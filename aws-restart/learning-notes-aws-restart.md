@@ -959,4 +959,17 @@ topic 6, prevention: public key infrastructure
 
 Lab system hardening  
 
-Topic 7: Prevention: Identity Management
+Topic 7: Prevention: Identity Management  
+
+Day 16 - 18 Desember 2018  
+Topic 8 - AWS Identity and Access Management (IAM)  
+- IAM is a service that helps securely control access to AWS resources. You can use it to manage access to AWS services and resources securely
+
+Lab - Introduction to AWS Identity and Access Management (IAM)  
+
+Topic 8 - Detection  
+- Antivirus & inrusion detection system (IDS)
+
+Lab - Malware Protection Using an AWS Network Firewall  
+
+
