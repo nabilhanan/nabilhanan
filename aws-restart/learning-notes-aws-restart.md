@@ -967,9 +967,25 @@ Topic 8 - AWS Identity and Access Management (IAM)
 
 Lab - Introduction to AWS Identity and Access Management (IAM)  
 
-Topic 8 - Detection  
+Topic 9 - Detection  
 - Antivirus & inrusion detection system (IDS)
 
 Lab - Malware Protection Using an AWS Network Firewall  
 
+Day 17 - 19 Desember 2023  
+Topic 10 - AWS CloudTrail  
+- CloudTrail provides auditing, security monitoring, and operational troubleshooting.
+- CloudTrail delivers your log files to an Amazon S3 bucket that you specify.
+- An AWS CloudTrail event is an activity that occurs in an AWS account.
+- CloudTrail captures and records activities that occur in an AWS account across Regions.
+- The information logged by CloudTrail gives visibility into user and resource activity. By using this information, you can identify who did what and when in your account
+- cloudtrail monitor user activity log, cloudwatch monitor performa
+- Because everything in AWS is an event, CloudTrail simplifies governance, compliance, and risk auditing.
 
+Topic 11 - AWS Config  
+- AWS Config is a service used for assessing, auditing, and evaluating the configuration of your AWS resources
+
+Topic 12 - Response  
+- BCP (bussines continuity plan) & DRP (disaster recovery plan): A critical aspect of managing a business is creating strategies to prepare for any event that will disrupt the way the business normally works.
+- A BCP lists different disaster scenarios. It describes what the business will do to keep critical services and functions running when a disaster or disruption occurs.
+- The DRP is a strategy that helps the business recover from disasters and unplanned incidents.
