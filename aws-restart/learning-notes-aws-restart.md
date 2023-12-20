@@ -989,3 +989,18 @@ Topic 12 - Response
 - BCP (bussines continuity plan) & DRP (disaster recovery plan): A critical aspect of managing a business is creating strategies to prepare for any event that will disrupt the way the business normally works.
 - A BCP lists different disaster scenarios. It describes what the business will do to keep critical services and functions running when a disaster or disruption occurs.
 - The DRP is a strategy that helps the business recover from disasters and unplanned incidents.
+
+Day 18 - 20 Desember 2023  
+Topic 13 - Analysis  
+- The goal of security analysis is to strengthen security controls to better protect your network, facilities, and organization.
+- Testing, monitoring, and logging are key activities that support security analysis.
+- A monitoring policy defines all the details of what, who, when, and how monitoring is to be performed
+- A logging policy identifies what should be logged and how to manage logs.
+
+Lab 281 - Monitor an EC2 Instance
+
+Topic 14- AWS Trusted Advisor  
+- Trusted Advisor is an online tool that provides real-time guidance to help you provision, optimize, and secure your resources by following AWS best practices.
+
+Topic 15 - Security Best Practices for Creating an AWS Account  
+
