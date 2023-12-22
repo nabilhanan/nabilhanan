@@ -1004,7 +1004,7 @@ Topic 14- AWS Trusted Advisor
 
 Topic 15 - Security Best Practices for Creating an AWS Account  
 
-Day 19 - 21 Desember 2023 
+Day 19 - 21 Desember 2023  
 Topic 16 - AWS Compliance Program  
 
 Topic 17 -  
@@ -1013,3 +1013,8 @@ Topic 1.1 - Introduction to Programming
 
 Topic 2 - Introduction to Python  
 - Python is a free, general-purpose programming language. It has a simpler syntax compared to other programming languages.
+
+Day 20 - 22 Desember 2023  
+- Topic 3 - Python Programming Basics  
+
+Lab 108 - Hello World
