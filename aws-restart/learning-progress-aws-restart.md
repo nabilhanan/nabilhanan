@@ -49,4 +49,28 @@ Day 24 - 5 January 20224
   4. Use the ALTER statement to alter the structure of a table
   5. Use the DROP statement to delete databases and tables
 
-
+Day 25 - 8 January 2024  
+- Topic 4 Databases - Inserting Data into a Database
+  1. Import a comma-separated values (.csv) file into a table
+  2. List common reasons for cleansing data before importing into a database
+  3. Insert rows into an existing table
+- Topic 5 Databases - Selecting Data from a Database
+  1. Demonstrate how to use the SELECT statement to retrieve data from a database
+  2. Identify the correct syntax of a SELECT statement
+  3. Demonstrate how to select data from certain columns or from all columns
+  4. Demonstrate how to use the WHERE clause to request that only certain rows from a table be returned
+- Topic 6 Databases - Performing a Conditional Search
+  1. Search using one or more conditions
+  2. Search for a range of values and NULL values
+  3. Search data based on string patterns
+- Lab 269 - Insert, Update, and Delete Data in a Database
+  1. This lab demonstrates how to insert, update, delete, and import rows of data using structured query language (SQL)
+  2. Insert rows into a table
+  3. Update rows in a table
+  4. Delete rows from a table
+  5. Import rows from a database backup file
+- Lab 270 - Selecting Data from a Database
+  1. This lab demonstrates how to use some common database operators and the SELECT statement.
+  2. Use the SELECT statement to query a database
+  3. Use the COUNT() function
+  4. Use operators to query a database
