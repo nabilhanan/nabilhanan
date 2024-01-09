@@ -74,3 +74,40 @@ Day 25 - 8 January 2024
   2. Use the SELECT statement to query a database
   3. Use the COUNT() function
   4. Use operators to query a database
+
+Day 26 - 9 Januari 2024  
+- Topic 7 Databases - Working with Functions
+  1. Identify built-in functions
+  2. Examine the DATE functions that can be used in calculations
+  3. Calculate data by using aggregate functions
+  4. Manipulate string values
+- Topic 8 Databases - Organizing Data
+  1. Use the ORDER BY clause to sort data by a specific column in either ascending or descending order.
+  2. Use the GROUP BY and HAVING clauses to group data and filter groups
+- Topic 9 Databases - Retrieving Data from Multiple Tables
+  1. Combine the results of two queries into a single output by using the UNION operator
+  2. Retrieve data by joining tables
+- Lab 271 - Performing a Conditional Search
+  1. This lab demonstrates how to use the SELECT statement and a WHERE clause to filter records with a conditional search.
+  2. Write a search condition by using the WHERE clause
+  3. Use the BETWEEN operator
+  4. Use the LIKE operator with wildcard characters
+  5. Use the AS operator to create a column alias
+  6. Use functions in a SELECT statement
+  7. Use functions in a WHERE clause
+- Lab 272 - Working with Functions
+  1. This lab demonstrates how to use some common database functions with the SELECT statement and WHERE clause.
+  2. Use aggregate functions SUM(), MIN(), MAX(), and AVG() to summarize data
+  3. Use the SUBSTRING_INDEX() function to split strings
+  4. Use the LENGTH() and TRIM() functions to determine the length of a string
+  5. Use the DISTINCT() function to filter duplicate records
+  6. Use functions in the SELECT statement and WHERE clause
+- Lab 273 - Organizing Data
+  1. This lab demonstrates how to use some common database functions with the GROUP BY and OVER clauses.
+  2. Use the GROUP BY clause with the aggregate function SUM()
+  3. Use the OVER clause with the RANK() window function
+  4. Use the OVER clause with the aggregate function SUM() and the RANK() window function
+- Lab 160 - Build Your DB Server and Interact With Your DB Using an App
+  1. Launch an Amazon RDS DB instance with high availability
+  2. Configure the DB instance to permit connections from your web server
+  3. Open a web application and interact with your database
