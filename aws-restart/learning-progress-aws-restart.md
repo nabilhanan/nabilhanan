@@ -111,3 +111,25 @@ Day 26 - 9 Januari 2024
   1. Launch an Amazon RDS DB instance with high availability
   2. Configure the DB instance to permit connections from your web server
   3. Open a web application and interact with your database
+
+Day 27 - 10 January 2024  
+- Topic 9 - Amazon Relational Database Service (Amazon RDS)
+  1. Provide an overview of Amazon RDS
+  2. Describe some of the options that Amazon RDS offers
+  3. List the six database types on Amazon RDS
+  4. Identify backup options for Amazon RDS
+  5. Examine a few uses cases for Amazon RDS
+  6. Describe details about one Amazon RDS database type, Amazon Aurora
+  7. Explore the key benefits of Aurora
+- Topic 10 - Amazon DynamoDB
+  1. Describe the purpose and function of Amazon DynamoDB.
+- Lab 274 - Introduction to Amazon Aurora
+  1. Create an Aurora instance
+  2. Connect to a pre-created Amazon Elastic Compute Cloud (Amazon EC2) instance
+  3. Configure the Amazon EC2 instance to connect to Aurora
+  4. Query the Aurora instance
+- Lab 275 - Introduction to Amazon DynamoDB
+  1. Create an Amazon DynamoDB table
+  2. Enter data into an Amazon DynamoDB table
+  3. Query an Amazon DynamoDB table
+  4. Delete an Amazon DynamoDB table
