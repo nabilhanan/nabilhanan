@@ -133,3 +133,21 @@ Day 27 - 10 January 2024
   2. Enter data into an Amazon DynamoDB table
   3. Query an Amazon DynamoDB table
   4. Delete an Amazon DynamoDB table
+
+Day 28 - 11 January 2024  
+- Topic 1 AWS Architecture - AWS Cloud Adoption Framework (AWS CAF)
+  1. Describe the AWS Cloud Adoption Framework (AWS CAF)
+  2. Explore the core perspectives of the AWS CAF
+- Topic 2 AWS Architecture - AWS Well-Architected Framework
+  1. Describe the features of the AWS Well-Architected Framework
+  2. Explore the pillars of the Well-Architected Framework
+- Topic 3 AWS Architecture - Well-Architected Principles
+  1. Identify key design principles of the AWS Well-Architected Framework
+  2. Describe the details of key well-architected design principles
+- Topic 4 AWS Architecture - Reliability and High Availability
+  1. Compare and contrast between reliability and high availability
+  2. Explore the prime factors of high availability
+- Topic 5 AWS Architecture - Transitioning a Data Center to the Cloud
+  1. You will walk through an example of transitioning a data center to the cloud.
+- Topic 1 Systems Operations - Systems Operations on AWS
+  1. You will learn how to describe systems operations (SysOps) and automation in the cloud.
