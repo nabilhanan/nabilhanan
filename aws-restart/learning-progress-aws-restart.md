@@ -151,3 +151,24 @@ Day 28 - 11 January 2024
   1. You will walk through an example of transitioning a data center to the cloud.
 - Topic 1 Systems Operations - Systems Operations on AWS
   1. You will learn how to describe systems operations (SysOps) and automation in the cloud.
+
+Day 29 - 12 January 2024  
+- Topic 2 Systems Operations - AWS Identity and Access Management (IAM) Review
+  1. Define AWS Identity and Access Management (IAM)
+  2. Recall the types of security credentials and the concepts of IAM users and IAM roles
+  3. Describe IAM best practices
+- Topic 3 System Operations - AWS Command Line Interface (AWS CLI)
+  1. Define the AWS Command Line Interface (AWS CLI)
+  2. Explain the steps for installing the AWS CLI on Linux
+  3. Describe details about the AWS CLI
+- Lab 168 - Install and Configure the AWS CLI
+  1. Install and configure the AWS CLI
+  2. Connect the AWS CLI to an AWS account
+  3. Access IAM by using the AWS CLI
+- Topic 1 Tooling and Automation - AWS Systems Manager
+  1. You will learn how to identify the capabilities of AWS Systems Manager
+- Lab 169 - Using AWS Systems Manager
+  1. Verify configurations and permissions
+  2. Run tasks on multiple servers
+  3. Update application settings or configurations
+  4. Access the command line on an instance
