@@ -172,3 +172,22 @@ Day 29 - 12 January 2024
   2. Run tasks on multiple servers
   3. Update application settings or configurations
   4. Access the command line on an instance
+
+Day 30 - 15 January 2024  
+- Topic 2 Tooling and Automation - Administration Tools
+  1. You will identify various tools to automate administration
+  2. AWS Software development kits (SDKs)
+  3. AWS CloudFormation
+  4. AWS OpsWorks
+- Topic 1 Server - Hosting a Static Website on Amazon S3
+  1. Describe the Amazon Simple Storage Service (Amazon S3) static website hosting feature
+  2. Identify the steps for hosting a static website on Amazon S3
+- Lab 170 - Creating a Website on S3
+  1. Create an Amazon Simple Storage Service (Amazon S3) bucket.
+  2. Create a new AWS Identity and Access Management (IAM) user that has full access to she Amazon S3 service.
+  3. Upload files to Amazon S3 to host a simple website for the Café & Bakery.
+  4. Create a batch file that can be used to update the static website when you change any of the website files locally.
+- Topic 2 Server - Computing on AWS
+  1. Describe Amazon Elastic Compute Cloud (Amazon EC2) virtualization
+  2. Identify the steps to launch an EC2 instance
+  3. Identify best practices for EC2 instances
