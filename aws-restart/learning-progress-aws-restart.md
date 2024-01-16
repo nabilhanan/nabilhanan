@@ -11,13 +11,55 @@ Day 1 - 20 November 2023
   1. Describe servers and data centers
   2. Discuss computing technology that makes cloud computing possible
   3. Describe how software is developed
-- Topic 3 Cloud Foundations: Development Team Roles
+- Topic 3 Cloud Foundations - Development Team Roles
   1. Identify the different roles in a software development team
   2. Identify the responsibilities of the project manager
   3. Identify the responsibilities of the analyst
   4. Identify the responsibilities of the quality assurance role
   5. Identify the responsibilities of the software developer
   6. Identify the responsibilities of the database administrator
+- Topic 4 CLoud Foundations - What Is Cloud Computing?
+  1. Define cloud computing
+  2. Describe different service models of cloud computing
+  3. Distinguish between cloud deployment model
+
+Day 2 - 21 November 2023  
+- Topic 5 Cloud Foundations - Advantages of Cloud Computing
+  1. Identify the advantages of cloud computing
+  2. Analyze the difference between fixed expense and variable expense
+  3. Summarize the concept of economics of scale
+- Topic 6 Cloud Foundations - What Is AWS?
+  1. Explain, in general, what a web service is
+  2. Explore the main services that Amazon Web Services (AWS) offers
+  3. Examine ways to access AWS services
+  4. Navigate the AWS documentation website
+- Topic 7 Cloud Foundations - Fundamentals of AWS Pricing
+  1. Describe the Amazon Web Services (AWS) pricing model
+  2. Explain the advantages of the AWS pricing model
+  3. Describe the AWS Free Tier offer
+  4. Explain the concept of total cost of ownership (TCO)
+  5. Identify the purpose of the AWS Pricing Calculator
+
+Day 3 - 22 November 2023  
+- Topic 8 Cloud Foundations - AWS Infrastructure Overview
+  1. Describe the AWS Global Infrastructure and its features
+  2. Identify the difference between Amazon Web Services (AWS) Regions, Availability Zones, and points of presence (PoPs)
+
+Day 4 - 23 November 2023  
+- Topic 9 Cloud Foundations - AWS Services and Service Categories
+  1. You will learn how to identify AWS services and service categories
+- Topic 10 Cloud Foundations - AWS Shared Responsibility Model
+  1. Describe AWS Cloud security and the shared responsibility model
+  2. Identify the security responsibilities of Amazon Web Services (AWS) compared with the security responsibilities of the customer.
+- Topic 11 Cloud Foundations - Amazon Simple Storage Service (Amazon S3)
+  1. Describe the purpose and benefits of Amazon Simple Storage Service (Amazon S3)
+  2. Explain the basic pricing that Amazon S3 uses
+
+Day 5 - 24 November 2023  
+- Topic 12 Cloud Foundations - Amazon Elastic Compute Cloud (Amazon EC2)
+  1. Explain the features and uses of Amazon Elastic Compute Cloud (Amazon EC2).
+  2. Launch an EC2 instance.
+  3. Describe the pricing options for Amazon EC2.
 
 Day 15 - 15 Desember 2023
 - Topic 6 Security - Prevention: Public Key Infrastructure
@@ -191,3 +233,18 @@ Day 30 - 15 January 2024
   1. Describe Amazon Elastic Compute Cloud (Amazon EC2) virtualization
   2. Identify the steps to launch an EC2 instance
   3. Identify best practices for EC2 instances
+
+Day 31 - 16 January 2024  
+- Topic 3 Server - Managing AWS EC2 Instances
+  1. Define the states of an Amazon Elastic Compute Cloud (Amazon EC2) instance and their effects
+  2. Modify an EC2 instance
+- Lab 171 - Creating Amazon EC2 Instances
+  1. In this lab, you use the AWS Management Console to launch an EC2 instance and then use it as a bastion host to launch another EC2 instance, which will be a web server.
+  2. You use EC2 Instance Connect to securely connect to the bastion host and use the AWS Command Line Interface (AWS CLI) to launch a web server instance.
+  3. export AWS_DEFAULT_REGION=us-west-2
+- Topic 4 Server - AWS Elastic Beanstalk
+  1. You will learn how to describe AWS Elastic Beanstalk and its features.
+- Lab 173 - Troubleshooting the Creation of an EC2 Instance
+  1. Launch an EC2 instance by using the AWS CLI.
+  2. Troubleshoot AWS CLI commands and Amazon EC2 service settings by using basic troubleshooting tips and the open-source nmap utility.
+
