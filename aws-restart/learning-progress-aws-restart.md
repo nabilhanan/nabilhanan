@@ -247,4 +247,8 @@ Day 31 - 16 January 2024
 - Lab 173 - Troubleshooting the Creation of an EC2 Instance
   1. Launch an EC2 instance by using the AWS CLI.
   2. Troubleshoot AWS CLI commands and Amazon EC2 service settings by using basic troubleshooting tips and the open-source nmap utility.
+- Topic 1 Scaling and Name Resolutions - Elastic Load Balancing
+  1. Identify the importance of scaling.
+  2. Describe the Elastic Load Balancing (ELB) service.
+  3. Describe the different types of ELB load balancers.
 
