@@ -252,3 +252,20 @@ Day 31 - 16 January 2024
   2. Describe the Elastic Load Balancing (ELB) service.
   3. Describe the different types of ELB load balancers.
 
+Day 32 - 17 January 2024  
+- Topic 2 Scaling and Name Resolution - Elastic Load Balancing (ELB) Load Balancers and Listeners
+  1. Review the components of an architecture that uses a load balancer.
+  2. Define the purpose of listeners and target groups.
+  3. Describe how to create and configure a load balancer by using the AWS Command Line Interface (AWS CLI).
+- Topic 3 Scaling and Name Resolutions - Amazon EC2 Auto Scaling
+  1. Describe Amazon EC2 Auto Scaling and launch templates.
+  2. Configure and manage launch templates and control scaling.
+  3. Identify best practices for implementing auto scaling.
+- Topic 4 Scaling and Name Resolutions - Auto Scaling Prediction Challenge
+  1. You will learn how to predict the number of instances needed based on policies and alarms.
+- Lab 174 - Scaling and Load Balancing Your Architecture
+  1. Create an AMI from an EC2 instance.
+  2. Create a load balancer.
+  3. Create a launch template and an Auto Scaling group.
+  4. Configure an Auto Scaling group to scale new instances within private subnets.
+  5. Use Amazon CloudWatch alarms to monitor the performance of your infrastructure.
