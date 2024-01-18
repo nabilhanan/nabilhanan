@@ -269,3 +269,15 @@ Day 32 - 17 January 2024
   3. Create a launch template and an Auto Scaling group.
   4. Configure an Auto Scaling group to scale new instances within private subnets.
   5. Use Amazon CloudWatch alarms to monitor the performance of your infrastructure.
+
+Day 33 - 18 January 2024  
+- Topic 5 Scaling and Name Resolutions - Amazon Route 53
+  1. You will learn how to describe Amazon Route 53 features and routing options.
+- Topic 6 Scaling and Name Resolutions - Amazon CloudFront
+  1. You will learn how to describe the Amazon CloudFront content delivery network (CDN) service.
+- Topic 7 Scaling and Name Resolutions - Amazon Route 53 Failover Routing
+- Lab 176 - Amazon Route 53 Failover Routing
+  1. Configure a Route 53 health check that sends emails when the health of an HTTP endpoint becomes unhealthy.
+  2. Configure failover routing in Route 53.
+- Topic 1 Serverless and Containers - AWS Lambda
+  1. Define serverless computing and identify the purpose and functions of AWS Lambda.
