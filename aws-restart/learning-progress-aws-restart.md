@@ -281,3 +281,26 @@ Day 33 - 18 January 2024
   2. Configure failover routing in Route 53.
 - Topic 1 Serverless and Containers - AWS Lambda
   1. Define serverless computing and identify the purpose and functions of AWS Lambda.
+
+Day 34 - 19 January 2024  
+- Topic 2 Serverless and Containers - APIs and REST
+  1. Describe the purpose and function of application programming interfaces (APIs), including Representational State Transfer (REST).
+- Topic 3 Serverless and Containers - Amazon API Gateway
+  1. Define Amazon API Gateway and its benefits.
+  2. Describe API Gateway architecture and how it is used.
+- Lab 178 - Working with AWS Lambda
+  1. Recognize necessary AWS Identity and Access Management (IAM) policy permissions to facilitate a Lambda function to other Amazon Web Services (AWS) resources.
+  2. Create a Lambda layer to satisfy an external library dependency.
+  3. Create Lambda functions that extract data from database, and send reports to user.
+  4. Deploy and test a Lambda function that is initiated based on a schedule and that invokes another function.
+  5. Use CloudWatch logs to troubleshoot any issues running a Lambda function.
+- Topic 4 Serverless and Containers - Containers on AWS
+  1. Explain the purpose of containers and their benefits.
+  2. Define Docker, its benefits, and its components.
+  3. Identify container-related services on Amazon Web Services (AWS).
+- Topic 5 Serverless and Containers - AWS Step Functions
+  1. You will learn how to define AWS Step Functions and its uses.
+- Topic 1 Databases Service - Introduction to Databases on AWS
+  1. Identify Amazon Web Services (AWS) database services and their benefits.
+  2. Examine the difference between unmanaged and managed database solutions.
+  3. Explain how to choose an AWS database that meets the needs of different business scenarios.
