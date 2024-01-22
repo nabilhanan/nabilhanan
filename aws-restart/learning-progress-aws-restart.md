@@ -61,6 +61,75 @@ Day 5 - 24 November 2023
   2. Launch an EC2 instance.
   3. Describe the pricing options for Amazon EC2.
 
+Day 6 - 27 November 2023  
+- Topic 1 Linux - Introduction to Linux
+  1. Define Linux
+  2. Describe the main features and components of the Linux operating system (OS)
+  3. Distinguish the different Linux user interfaces
+  4. Use the built-in Linux documentation
+  5. List different Linux distributions
+- Topic 2 Linux - Linux Command Line
+  1. Describe the login workflow
+  2. Explain the Linux command syntax
+  3. Perform basic operations at the command line
+  4. Explain standard input, standard output, and standard error
+
+Day 7 - 28 November 2023  
+- Topic 3 Linux - Users and Groups
+  1. Manage user accounts
+  2. Manage group accounts
+  3. Elevate permissions by using the su and sudo commands
+  4. Describe IAM, the authentication service that AWS uses
+- Topic 4 Linux - Editing Files
+  1. Explain basic commands of the Vim file editor
+  2. Explain basic commands of the GNU nano file editor
+  3. Explain basic commands of the gedit file editor
+
+Day 8 - 29 November 2023  
+- Topic 5 Linux - Working with the File System
+  1. Navigate files and directories in Linux
+  2. Explain basic commands for managing files and directories
+  3. Compare absolute and relative paths
+- Topic 6 Linux - Working with Files
+  1. Describe the use of the hash, cksum, find, grep, and diff commands
+  2. Differentiate hard links from symbolic links
+  3. Compare the tar, gzip, and zip commands
+
+Day 9 - 30 November 2023
+- Topic 7 Linux - Managing File Permissions
+  1. View and change file permissions
+  2. Compare symbolic and absolute representations of file permissions
+- Topic 8 Linux - Working with Commands
+  1. Describe the purpose of special characters that are used with commands in Bash
+  2. Describe commonly used text search and manipulation commands
+  3. Explain redirection and describe common syntax for various redirect options
+- Topic 9 Linux - Managing Processes
+  1. Define a process in Linux
+  2. Describe basic commands for process management
+  3. Compare the at and cron commands for job scheduling
+
+Day 10 - 1 Desember 2023  
+- Topic 10 Linux - Managing Services
+  1. Explain common commands that are used for managing services on Linux
+  2. Explain common commands that are used for monitoring services on Linux
+- Topic 11 Linux - The Bash Shell
+  1. Describe features of the Bash shell
+  2. Explain how to display shell variables
+  3. Explain how environment variables are used
+  4. Describe the value of the alias command
+
+Day 11 - 4 Desember 2023  
+- Topic 12 Linux - Shell Script
+
+
+
+
+
+
+
+
+
+
 Day 15 - 15 Desember 2023
 - Topic 6 Security - Prevention: Public Key Infrastructure
   1. Explain how the public key infrastructure (PKI) works and describe its major components
