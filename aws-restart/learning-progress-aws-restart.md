@@ -373,3 +373,18 @@ Day 34 - 19 January 2024
   1. Identify Amazon Web Services (AWS) database services and their benefits.
   2. Examine the difference between unmanaged and managed database solutions.
   3. Explain how to choose an AWS database that meets the needs of different business scenarios.
+
+Day 35 - 22 January 2023  
+- Topic 2 Databases Services - Amazon Redshift
+  1. Define data warehouses and how they work.
+  2. Describe the Amazon Redshift data warehouse service.
+- Topic 3 Databases Services - Amazon Aurora
+  1. You will learn how to describe the Amazon Aurora database service and its features.
+- Topic 4 Databases Services - AWS Database Migration Service
+  1. Describe the AWS Database Migration Service (AWS DMS) and its features.
+  2. Identify key differences between homogeneous database migrations and heterogeneous database migrations.
+  3. Describe the AWS Schema Conversion Tool (AWS SCT).
+- Lab 179 - Migrating to Amazon RDS
+  1. Create an Amazon RDS MariaDB instance by using the AWS CLI.
+  2. Migrate data from a MariaDB database on an EC2 instance to an Amazon RDS MariaDB instance.
+  3. Monitor the Amazon RDS instance by using Amazon CloudWatch metrics.
