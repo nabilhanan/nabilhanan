@@ -388,3 +388,18 @@ Day 35 - 22 January 2023
   1. Create an Amazon RDS MariaDB instance by using the AWS CLI.
   2. Migrate data from a MariaDB database on an EC2 instance to an Amazon RDS MariaDB instance.
   3. Monitor the Amazon RDS instance by using Amazon CloudWatch metrics.
+
+Day 36 - 23 January 2023  
+- Topic 1 AWS Networking Services - AWS Cloud Networking and Amazon Virtual Private Cloud
+  1. Explain the foundational role of Amazon Virtual Private Cloud (VPC) in AWS Cloud networking.
+  2. Identify the networking components inside a VPC and their purpose.
+- Topic 2 AWS Networking Services - VPC Connectivity Options
+  1. You will learn how to differentiate the options for VPC connectivity.
+- Topic 3 AWS Networking Services - Securing and Troubleshooting Your Network
+  1. Describe the methods for securing a virtual private cloud (VPC).
+  2. List the steps to troubleshoot common VPC connection issues.
+- Lab 180 - Configuring a VPC
+  1. Create a VPC with a private and public subnet, an internet gateway, and a NAT gateway.
+  2. Configure route tables associated with subnets to local and internet-bound traffic by using an internet gateway and a NAT gateway.
+  3. Launch a bastion server in a public subnet.
+  4. Use a bastion server to log in to an instance in a private subnet.
