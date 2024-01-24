@@ -374,7 +374,7 @@ Day 34 - 19 January 2024
   2. Examine the difference between unmanaged and managed database solutions.
   3. Explain how to choose an AWS database that meets the needs of different business scenarios.
 
-Day 35 - 22 January 2023  
+Day 35 - 22 January 2024  
 - Topic 2 Databases Services - Amazon Redshift
   1. Define data warehouses and how they work.
   2. Describe the Amazon Redshift data warehouse service.
@@ -389,7 +389,7 @@ Day 35 - 22 January 2023
   2. Migrate data from a MariaDB database on an EC2 instance to an Amazon RDS MariaDB instance.
   3. Monitor the Amazon RDS instance by using Amazon CloudWatch metrics.
 
-Day 36 - 23 January 2023  
+Day 36 - 23 January 2024  
 - Topic 1 AWS Networking Services - AWS Cloud Networking and Amazon Virtual Private Cloud
   1. Explain the foundational role of Amazon Virtual Private Cloud (VPC) in AWS Cloud networking.
   2. Identify the networking components inside a VPC and their purpose.
@@ -403,3 +403,22 @@ Day 36 - 23 January 2023
   2. Configure route tables associated with subnets to local and internet-bound traffic by using an internet gateway and a NAT gateway.
   3. Launch a bastion server in a public subnet.
   4. Use a bastion server to log in to an instance in a private subnet.
+
+Day 37 - 24 January 2024  
+- Topic 1 Storage and Archiving - Cloud Storage Overview
+  1. Define cloud storage, how it works, and its uses.
+  2. Identify Amazon Web Services (AWS) Cloud storage services and categories.
+- Topic 2 Storage and Archiving - Amazon EBS
+  1. Define Amazon Elastic Block Store (Amazon EBS).
+  2. Identify EBS volume types and examine some use cases.
+  3. Create and manage an EBS volume using the AWS Command Line Interface (AWS CLI).
+- Lab 181 - Troubleshooting a VPC
+  1. Creating an Amazon Simple Storage Service (Amazon S3) bucket to hold VPC Flow Log data
+  2. Creating a flow log to capture all IP traffic passing through network interfaces in the VPC
+  3. Troubleshooting the VPC configuration issues to allow access to the resources
+  4. Downloading and analyzing the flow log data
+- Lab 182 - Working with Amazon EBS
+  1. Create an EBS volume.
+  2. Attach and mount an EBS volume to an EC2 instance.
+  3. Create a snapshot of an EBS volume.
+  4. Create an EBS volume from a snapshot.
