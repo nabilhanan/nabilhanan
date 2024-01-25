@@ -422,3 +422,19 @@ Day 37 - 24 January 2024
   2. Attach and mount an EBS volume to an EC2 instance.
   3. Create a snapshot of an EBS volume.
   4. Create an EBS volume from a snapshot.
+
+Day 38 - 25 January 2024  
+- Topic 3 Storage and Archiving - Instance Store
+  1. You will learn how to identify what Amazon Elastic Compute Cloud (Amazon EC2) instance store volumes are and how they work.
+- Topic 4 Storage and Archiving - Amazon EFS
+  1. You will learn how to define Amazon Elastic File System (Amazon EFS) and how it works.
+- Topic 5 Storage and Archiving - Storage with Amazon S3
+  1. Define Amazon Simple Storage Service (Amazon S3).
+  2. Identify Amazon S3 concepts.
+  3. Define S3 Intelligent-Tiering.
+  4. Identify Amazon S3 access and security features.
+  5. Identify how to store, retrieve, and archive S3 objects by using the AWS Command Line Interface (AWS CLI).
+- Topic 6 Storage and Archiving - Amazon S3 Glacier
+  1. You will learn how to define Amazon Simple Storage Service Glacier (Amazon S3 Glacier), what its key data model concepts are, and how to access it.
+- Topic 7 Storage and Archiving - AWS Storage Gateway
+  1. You will learn how to define AWS Storage Gateway, what its key concepts are, and how it works.
