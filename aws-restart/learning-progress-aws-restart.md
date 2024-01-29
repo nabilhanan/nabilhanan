@@ -549,3 +549,6 @@ Day 39 - 26 January 2024
   1. Use the s3api and s3 AWS CLI commands to create and configure an S3 bucket.
   2. Verify write permissions to a user on an S3 bucket.
   3. Configure event notification on an S3 bucket.
+
+Day 40 - 29 January 2024  
+- Penjelasan cara booking ujian CCP
