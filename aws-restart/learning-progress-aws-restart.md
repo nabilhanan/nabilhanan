@@ -158,17 +158,52 @@ Day 15 - 8 Desember 2023
   3. Describe the key components of a virtual private cloud (VPC)
   4. Relate subnetting and Classless Inter-Domain Routing (CIDR) block addressing to Amazon VPC features
 
+Day 16 - 11 Desember 2023  
+- Topic 5 Networking - Introduction to IP Subnetting
+  1. Define a subnet, its parts, and its purpose
+  2. Describe the purpose of IP subnetting
+  3. Use the Classless Inter-Domain Routing (CIDR) notation to specify subnet address ranges
+  4. Describe the use of subnet masks
+- Topic 6 Networking - Welcome to Additional Networking Protocols
+  1. Identify other types of communication protocols
+  2. Describe common transport, application, and network management protocols
+  3. Use tools to discover information about network communications
 
+Day 17 - 12 Desember 2023  
+- Topic 7 Networking - Additional Networking Technologies
+  1. List wireless technologies and their characteristics
+  2. Identify the primary goal of the Internet of Things (IoT)
+  3. Define bring your own device (BYOD) and mobile device management (MDM)
+ 
+Day 18 - 13 Desember 2023
+- Topic 1 Security - Introduction to Security
+  1. Define key security terms
+  2. Identify different types of security threats
+  3. Identify the components that comprise a security strategy
+  4. List the types of security controls
+  5. Name the stages of the security lifecycle
+- Topic 2 Security - Security Lifecycle: Prevention
+  1. Describe the importance of prevention in the security lifecycle
+  2. Describe security prevention tasks
+  3. Use a layered model to build a security prevention strategy
+  4. List different types of prevention measures
+- Topic 3 Security - Prevention: Network Hardening
+  1. Identify network security vulnerabilities
+  2. List network discovery protection mechanisms
+  3. Describe network architecture hardening practices
 
+Day 19 - 14 Desember 2023  
+- Topic 4 Security - Prevention: Systems Hardening
+  1. Explain the principle of systems hardening and how it is applied to computer security
+  2. Describe baselines and explain why they are important
+  3. Describe how to harden different systems and the techniques that are used
+  4. Identify the tools that are used to detect and show common security configuration problems
+- Topic 5 Security - Prevention: Data Security
+  1. Explain encryption techniques that help protect data confidentiality
+  2. Describe hashing as a method to ensure data integrity
+  3. Distinguish between discretionary and role-based access control
 
-
-
-
-
-
-
-
-Day 20  - 15 Desember 2023
+Day 20 - 15 Desember 2023
 - Topic 6 Security - Prevention: Public Key Infrastructure
   1. Explain how the public key infrastructure (PKI) works and describe its major components
   2. Explain how certificates work and how they can be used to secure information
@@ -178,6 +213,35 @@ Day 20  - 15 Desember 2023
   2. Explain how authentication works
   3. Describe different types of authentication factors
   4. Identify tools and services used to support identity management
+
+Day 21 - 18 Desember 2023  
+- Topic 8 Security - AWS Identity and Access Management (IAM)
+  1. Describe the AWS Identity and Access Management (IAM) service
+  2. List the different types of security credentials that IAM supports
+  3. Describe how authentication and authorization are implemented in IAM
+- Topic 9 Security - Detection
+  1. Describe how antivirus software is used to detect threats
+  2. Define the benefits of an intrusion detection system (IDS)
+  3. Identify how Amazon GuardDuty detects threats
+
+Day 22 - 19 Desember 2023  
+- Topic 10 Security - AWS CloudTrail
+  1. Describe the value of AWS CloudTrail
+  2. Highlight the features of AWS CloudTrail
+- Topic 11 Security - AWS Config
+  1. Highlight the features of AWS Config
+  2. Describe how AWS Config helps improve security configuration and compliance
+- Topic 12 Security - Response
+  1. List the typical steps in the incident investigation process
+  2. Describe the purpose of a business continuity plan (BCP) and a disaster recovery plan (DRP)
+
+
+
+
+
+
+
+
 
 Day 24 - 5 January 20224  
 - Topic 1 Databases - Introduction to Databases
