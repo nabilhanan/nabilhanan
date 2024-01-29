@@ -550,6 +550,7 @@ Topc 8: Working with commands
   - | : menjalankan command secara berurutan menggunakan output command pertama untuk input command kedua
   - 
 
+Day 10 - 1 Desember 2023
 Topic 9: managing process in linux  
 - program: kumpulan instruksi yang diberikan ke komputer untuk memberitahu komputer apa yang harus dilakukan
 - program ada 2, sistem program dan aplikasi program
@@ -575,7 +576,7 @@ Topic 9: managing process in linux
   - at: scheduling sekali
   - cron: scheduling rutin
 
-Day 11 - 4 November 2023  
+Day 11 - 4 Desember 2023  
 Topic 10: Managing Services  
 - systemctl: systemctl <subcommand> <servicename>
 - digunakan untuk troubleshooting jika ada service yang tidak bekerja.
@@ -618,7 +619,7 @@ Topic 12: Bash Shell
 - jika ingin membuat alias permanen edit di .bashrc
 - $PATH: untuk menambah nilai ke nilai yang sudah ada di variable
 
-Day 12 - 5 November 2023  
+Day 12 - 5 Desember 2023  
 Topic 13: Shell scripts  
 - script adalah kumpulan command dalam sebuah text file
 - cara membuat script:
@@ -773,7 +774,7 @@ Topic 1: Introduction to networking
   6. router: menghubungkan beberapa segmen jaringan (switch) dan membuat jaringan komputer yang lebih besar. router dapat melakukan trasmisi sekaligus filter data. bekerja pada layer 2 data link dan layer 3 network
   7. modem (odp box di tiang listrik): menghubungkan router dengan isp
 
-Day 9 - 7 Desember 2023  
+Day 14 - 7 Desember 2023  
 Topic 3: Networking concept
 - Type of network:
   - LAN: local area network, area geografis terbatas seperti gedung atau kantor
@@ -797,7 +798,7 @@ Topic 4: Internet protocol
 - ssh -i key.pem user@ip
 - exit untuk keluar
 
-Day 10 - 8 Desember 2023  
+Day 15 - 8 Desember 2023  
 Topic 5: Networking in AWS clouds | Modul 2 - Networking Fundamentals  
 - materi: networking in the cloud, networking in VPC, component of VPC, subnetting & CISR on VPC
 
@@ -820,7 +821,7 @@ Networking in the cloud
   - logically isolated from Amazon VPCs
 - subnet calculator: https://www.site24x7.com/tools/ipv4-subnetcalculator.html
 
-Day 11 -  11 Desember 2023  
+Day 16 -  11 Desember 2023  
 Topic 6: Subnetting IP
 - alasan menggunakan subnet: meningkatkan kecepatan, mengurangi network traffic, keamanan lebih baik
 - classes subnetting
@@ -839,11 +840,11 @@ Topic 7: additional networking protocol
 - SSL: protokol standar pengamanan komunikasi
 - TLS: updated version of SSL yang lebih aman. Pembayaran membutuhkan TLS 1.2 certification
 
-Day 12 - 12 Desember 2023  
+Day 17 - 12 Desember 2023  
 - lab 267 - Build your VPC and launch a web server
 - Topic 8: additional networking technologies
 
-Day 13 - 13 Desember 2023  
+Day 18 - 13 Desember 2023  
 Modul 3: Security  
 Topic 1: Introduction to security  
 - Security is practice of protecting valuable assets
@@ -915,7 +916,7 @@ Topic 3: Prevention, network hardening
   6. Network access control list (network ACL): A network ACL acts like a firewall. In the AWS Cloud, it is used to protect a subnet.(stateless, subnet scope
 
 
-Day 14 - 14 Desember 2023  
+Day 19 - 14 Desember 2023  
 Topic 4 - Prevention, system hardening  
 - Systems hardening is the action of securing computing systems to protect them from attacks.
 - authentication, authorization, accounting
@@ -952,7 +953,7 @@ Topic 5 - prevention, data security
 - A permission grants a specific type of access to a resource (for example, write access to a file).
 - Permissions are classified into two types: discretionary (based on identity or other criteria) and role-based (based on an assigned role).
 
-Day 15 - 15 Desember 2023  
+Day 20 - 15 Desember 2023  
 topic 6, prevention: public key infrastructure  
 - Public key infrastructure (PKI) is a collection of technologies that are used to apply cryptography principles
 - CAs are entities that deliver digital certificates, which ensure that a website is secure.
@@ -961,7 +962,7 @@ Lab system hardening
 
 Topic 7: Prevention: Identity Management  
 
-Day 16 - 18 Desember 2018  
+Day 21 - 18 Desember 2018  
 Topic 8 - AWS Identity and Access Management (IAM)  
 - IAM is a service that helps securely control access to AWS resources. You can use it to manage access to AWS services and resources securely
 
@@ -972,7 +973,7 @@ Topic 9 - Detection
 
 Lab - Malware Protection Using an AWS Network Firewall  
 
-Day 17 - 19 Desember 2023  
+Day 22 - 19 Desember 2023  
 Topic 10 - AWS CloudTrail  
 - CloudTrail provides auditing, security monitoring, and operational troubleshooting.
 - CloudTrail delivers your log files to an Amazon S3 bucket that you specify.
@@ -990,7 +991,7 @@ Topic 12 - Response
 - A BCP lists different disaster scenarios. It describes what the business will do to keep critical services and functions running when a disaster or disruption occurs.
 - The DRP is a strategy that helps the business recover from disasters and unplanned incidents.
 
-Day 18 - 20 Desember 2023  
+Day 23 - 20 Desember 2023  
 Topic 13 - Analysis  
 - The goal of security analysis is to strengthen security controls to better protect your network, facilities, and organization.
 - Testing, monitoring, and logging are key activities that support security analysis.
@@ -1004,7 +1005,7 @@ Topic 14- AWS Trusted Advisor
 
 Topic 15 - Security Best Practices for Creating an AWS Account  
 
-Day 19 - 21 Desember 2023  
+Day 24 - 21 Desember 2023  
 Topic 16 - AWS Compliance Program  
 
 Topic 17 -  
@@ -1014,7 +1015,7 @@ Topic 1.1 - Introduction to Programming
 Topic 2 - Introduction to Python  
 - Python is a free, general-purpose programming language. It has a simpler syntax compared to other programming languages.
 
-Day 20 - 22 Desember 2023  
+Day 25 - 22 Desember 2023  
 - Topic 3 - Python Programming Basics  
 
 Lab 108 - Hello World
