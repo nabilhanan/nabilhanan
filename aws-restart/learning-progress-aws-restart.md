@@ -103,12 +103,14 @@ Day 9 - 30 November 2023
   1. Describe the purpose of special characters that are used with commands in Bash
   2. Describe commonly used text search and manipulation commands
   3. Explain redirection and describe common syntax for various redirect options
+
+Day 10 - 1 Desember 2023  
 - Topic 9 Linux - Managing Processes
   1. Define a process in Linux
   2. Describe basic commands for process management
   3. Compare the at and cron commands for job scheduling
 
-Day 10 - 1 Desember 2023  
+Day 11 - 4 Desember 2023  
 - Topic 10 Linux - Managing Services
   1. Explain common commands that are used for managing services on Linux
   2. Explain common commands that are used for monitoring services on Linux
@@ -118,8 +120,43 @@ Day 10 - 1 Desember 2023
   3. Explain how environment variables are used
   4. Describe the value of the alias command
 
-Day 11 - 4 Desember 2023  
-- Topic 12 Linux - Shell Script
+Day 12 - 5 Desember 2023  
+- Topic 12 Linux - Bash Shell Script
+  1. Describe common tasks that are accomplished through shell scripts
+  2. Describe basic commands that are frequently included in shell scripts
+  3. Describe basic logical control statements that are frequently included in shell scripts
+  4. Run a shell script
+- Topic 13 Linux - Software Management
+  1. Describe how package managers support software management
+
+Day 13 - 6 Desember 2023  
+- Topic 14 Linux - Managing Log Files
+  1. Define log files
+  2. Use commands to read different types of messages in a log file
+  3. Recognize the benefits of log rotation
+- Topic 1 Networking - Introduction to networking
+  1. Define basic networking terms
+  2. Explain what the Internet is, its purpose, and its function for users.
+  3. Identify the main components of a computer network
+
+Day 14 - 7 Desember 2023  
+- Topic 2 Networking - Networking concepts
+  1. Distinguish between different types of networks
+  2. Describe common network management models and network topologies
+  3. List different types of network protocols
+- Topic 3 Networking - Internet Protocols (IP)
+  1. Describe the Internet Protocol (IP) and its features
+  2. Explain the purpose of an IP address and its notation
+  3. Distinguish between different classes of IP addresses
+  4. Convert an IP address to binary
+  5. Describe port numbering and its use
+
+Day 15 - 8 Desember 2023  
+- Topic 4 Networking - Networking in the AWS Cloud
+  1. Explain networking in the cloud
+  2. Explain virtual networking in the cloud with Amazon Virtual Private Cloud (Amazon VPC)
+  3. Describe the key components of a virtual private cloud (VPC)
+  4. Relate subnetting and Classless Inter-Domain Routing (CIDR) block addressing to Amazon VPC features
 
 
 
@@ -130,7 +167,8 @@ Day 11 - 4 Desember 2023
 
 
 
-Day 15 - 15 Desember 2023
+
+Day 20  - 15 Desember 2023
 - Topic 6 Security - Prevention: Public Key Infrastructure
   1. Explain how the public key infrastructure (PKI) works and describe its major components
   2. Explain how certificates work and how they can be used to secure information
@@ -438,3 +476,12 @@ Day 38 - 25 January 2024
   1. You will learn how to define Amazon Simple Storage Service Glacier (Amazon S3 Glacier), what its key data model concepts are, and how to access it.
 - Topic 7 Storage and Archiving - AWS Storage Gateway
   1. You will learn how to define AWS Storage Gateway, what its key concepts are, and how it works.
+
+Day 39 - 26 January 2024  
+- Topic 8 Storage and Archiving - AWS Transfer Family and Other Migration Services
+  1. Define the AWS Transfer Family and its key concepts.
+  2. Identify Amazon Web Services (AWS) migration services and their uses.
+- Lab 185 - Working with Amazon S3
+  1. Use the s3api and s3 AWS CLI commands to create and configure an S3 bucket.
+  2. Verify write permissions to a user on an S3 bucket.
+  3. Configure event notification on an S3 bucket.
