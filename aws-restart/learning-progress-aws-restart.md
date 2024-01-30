@@ -235,6 +235,89 @@ Day 22 - 19 Desember 2023
   1. List the typical steps in the incident investigation process
   2. Describe the purpose of a business continuity plan (BCP) and a disaster recovery plan (DRP)
 
+Day 23 - 20 Desember 2023  
+- Topic 13 Security - Analysis
+  1. Define security analysis and why it is necessary
+  2. Identify tools and processes for security analysis
+  3. Describe how different types of testing, monitoring, and logging support security analysis
+- Topic 14 Security - AWS Trusted Advisor
+  1. Describe AWS Trusted Advisor
+  2. Explore the five categories of recommendations that Trusted Advisor produces
+  3. List the security features of Trusted Advisor
+  4. Interpret Trusted Advisor recommendations
+- Topic 15 Security - Security Best Practices for Creating an AWS Account
+  1. Use best practices when creating an Amazon Web Services (AWS) account
+
+Day 24 - 21 Desember 2023  
+- Topic 16 Security - AWS Compliance Program
+  1. Describe how laws, standards, and regulations impact security
+  2. Identify various regulatory compliance standards
+  3. Describe the AWS compliance program
+- Topic 17 Security - AWS Security Resources
+  1. You will learn how to explore different types of security resources.
+- Topic 1 Python - Introduction to Programming
+  1. Define programming
+  2. Explain the function and features of an integrated development environment (IDE)
+  3. Describe the cycle of programming
+
+Day 25 - 22 Desember 2023  
+- Topic 2 Python - Introduction to Python
+  1. Explain what Python is
+  2. List reasons for using Python
+  3. List examples of programs that can be used to write Python code
+  4. Compare Python to shell scripting
+  5. Introduction to AWS Lambda
+- Topic 3 Python - Python Basics
+  1. Install Python on a Linux computer
+  2. Define basic Python terminology
+  3. Declare variables in a Python script and perform operations on those variables
+  4. Explain statements, functions, and exceptions
+
+Day 26 - 2 January 2024  
+- Topic 4 Python - Flow Control
+  1. Describe the purpose and use of flow control in a program
+  2. Use conditional statements to run code based on evaluated criteria
+  3. Use loops to run code repeatedly until the criteria are met
+  4. Use the input() function to prompt users for input to be used when they run the program
+- Topic 5 Python - Functions
+  1. Explain the purpose of functions
+  2. Name the different types of functions
+  3. Use functions to organize Python code
+
+Day 27 - 3 January 2024  
+- Topic 6 Python - Modules and Libraries
+  1. Explain the purpose of a module in Python
+  2. Describe the Python standard library
+  3. Import modules from a library
+  4. Use file handlers to open, read, write, and close files from within Python code
+  5. Use exception handlers to catch errors in code
+  6. Import the JavaScript Object Notation (JSON) module and use JSON functions
+  7. Use pip to download and install third-party modules for Python
+- Topic 7 Python - Python for System Administration
+  1. Define system administration
+  2. Recognize how to manage users
+  3. Recognize how to handle packages
+  4. Recognize how to use os.system() and subprocess.run() to make complex decisions
+
+Day 28 - 4 January 2024  
+- Topic 8 Python - Debugging and Testing
+  1. Explain the purpose of debugging and testing code
+  2. Explain how debuggers enable developers to find bugs in their code
+  3. Recognize how to perform a static analysis on Python code
+  4. Recognize how to evaluate Python code for ways to implement dynamic analysis
+- Topic 9 Python - DevOps and Continuous Integration
+  1. Define DevOps
+  2. Identify the goals of DevOps
+  3. Identify the challenges that DevOps solves
+  4. Describe the culture of DevOps
+- Topic 10 Python - Configuration Management
+  1. Define project infrastructure
+  2. Explain why project infrastructure is important to the success of a project
+  3. Define the purpose and function of software configuration management
+
+
+
+
 
 
 
