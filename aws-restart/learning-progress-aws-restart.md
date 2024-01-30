@@ -326,7 +326,7 @@ Day 28 - 4 January 2024
 
 
 
-Day 24 - 5 January 20224  
+Day 29 - 5 January 20224  
 - Topic 1 Databases - Introduction to Databases
   1. Identify different components of a database
   2. Differentiate between relational databases and nonrelational databases
@@ -345,7 +345,7 @@ Day 24 - 5 January 20224
   4. Use the ALTER statement to alter the structure of a table
   5. Use the DROP statement to delete databases and tables
 
-Day 25 - 8 January 2024  
+Day 30 - 8 January 2024  
 - Topic 4 Databases - Inserting Data into a Database
   1. Import a comma-separated values (.csv) file into a table
   2. List common reasons for cleansing data before importing into a database
@@ -371,7 +371,7 @@ Day 25 - 8 January 2024
   3. Use the COUNT() function
   4. Use operators to query a database
 
-Day 26 - 9 Januari 2024  
+Day 31 - 9 Januari 2024  
 - Topic 7 Databases - Working with Functions
   1. Identify built-in functions
   2. Examine the DATE functions that can be used in calculations
@@ -408,7 +408,7 @@ Day 26 - 9 Januari 2024
   2. Configure the DB instance to permit connections from your web server
   3. Open a web application and interact with your database
 
-Day 27 - 10 January 2024  
+Day 32 - 10 January 2024  
 - Topic 9 - Amazon Relational Database Service (Amazon RDS)
   1. Provide an overview of Amazon RDS
   2. Describe some of the options that Amazon RDS offers
@@ -430,7 +430,7 @@ Day 27 - 10 January 2024
   3. Query an Amazon DynamoDB table
   4. Delete an Amazon DynamoDB table
 
-Day 28 - 11 January 2024  
+Day 33 - 11 January 2024  
 - Topic 1 AWS Architecture - AWS Cloud Adoption Framework (AWS CAF)
   1. Describe the AWS Cloud Adoption Framework (AWS CAF)
   2. Explore the core perspectives of the AWS CAF
@@ -448,7 +448,7 @@ Day 28 - 11 January 2024
 - Topic 1 Systems Operations - Systems Operations on AWS
   1. You will learn how to describe systems operations (SysOps) and automation in the cloud.
 
-Day 29 - 12 January 2024  
+Day 34 - 12 January 2024  
 - Topic 2 Systems Operations - AWS Identity and Access Management (IAM) Review
   1. Define AWS Identity and Access Management (IAM)
   2. Recall the types of security credentials and the concepts of IAM users and IAM roles
@@ -469,7 +469,7 @@ Day 29 - 12 January 2024
   3. Update application settings or configurations
   4. Access the command line on an instance
 
-Day 30 - 15 January 2024  
+Day 35 - 15 January 2024  
 - Topic 2 Tooling and Automation - Administration Tools
   1. You will identify various tools to automate administration
   2. AWS Software development kits (SDKs)
@@ -488,7 +488,7 @@ Day 30 - 15 January 2024
   2. Identify the steps to launch an EC2 instance
   3. Identify best practices for EC2 instances
 
-Day 31 - 16 January 2024  
+Day 36 - 16 January 2024  
 - Topic 3 Server - Managing AWS EC2 Instances
   1. Define the states of an Amazon Elastic Compute Cloud (Amazon EC2) instance and their effects
   2. Modify an EC2 instance
@@ -506,7 +506,7 @@ Day 31 - 16 January 2024
   2. Describe the Elastic Load Balancing (ELB) service.
   3. Describe the different types of ELB load balancers.
 
-Day 32 - 17 January 2024  
+Day 37 - 17 January 2024  
 - Topic 2 Scaling and Name Resolution - Elastic Load Balancing (ELB) Load Balancers and Listeners
   1. Review the components of an architecture that uses a load balancer.
   2. Define the purpose of listeners and target groups.
@@ -524,7 +524,7 @@ Day 32 - 17 January 2024
   4. Configure an Auto Scaling group to scale new instances within private subnets.
   5. Use Amazon CloudWatch alarms to monitor the performance of your infrastructure.
 
-Day 33 - 18 January 2024  
+Day 38 - 18 January 2024  
 - Topic 5 Scaling and Name Resolutions - Amazon Route 53
   1. You will learn how to describe Amazon Route 53 features and routing options.
 - Topic 6 Scaling and Name Resolutions - Amazon CloudFront
@@ -536,7 +536,7 @@ Day 33 - 18 January 2024
 - Topic 1 Serverless and Containers - AWS Lambda
   1. Define serverless computing and identify the purpose and functions of AWS Lambda.
 
-Day 34 - 19 January 2024  
+Day 39 - 19 January 2024  
 - Topic 2 Serverless and Containers - APIs and REST
   1. Describe the purpose and function of application programming interfaces (APIs), including Representational State Transfer (REST).
 - Topic 3 Serverless and Containers - Amazon API Gateway
@@ -559,7 +559,7 @@ Day 34 - 19 January 2024
   2. Examine the difference between unmanaged and managed database solutions.
   3. Explain how to choose an AWS database that meets the needs of different business scenarios.
 
-Day 35 - 22 January 2024  
+Day 40 - 22 January 2024  
 - Topic 2 Databases Services - Amazon Redshift
   1. Define data warehouses and how they work.
   2. Describe the Amazon Redshift data warehouse service.
@@ -574,7 +574,7 @@ Day 35 - 22 January 2024
   2. Migrate data from a MariaDB database on an EC2 instance to an Amazon RDS MariaDB instance.
   3. Monitor the Amazon RDS instance by using Amazon CloudWatch metrics.
 
-Day 36 - 23 January 2024  
+Day 41 - 23 January 2024  
 - Topic 1 AWS Networking Services - AWS Cloud Networking and Amazon Virtual Private Cloud
   1. Explain the foundational role of Amazon Virtual Private Cloud (VPC) in AWS Cloud networking.
   2. Identify the networking components inside a VPC and their purpose.
@@ -589,7 +589,7 @@ Day 36 - 23 January 2024
   3. Launch a bastion server in a public subnet.
   4. Use a bastion server to log in to an instance in a private subnet.
 
-Day 37 - 24 January 2024  
+Day 42 - 24 January 2024  
 - Topic 1 Storage and Archiving - Cloud Storage Overview
   1. Define cloud storage, how it works, and its uses.
   2. Identify Amazon Web Services (AWS) Cloud storage services and categories.
@@ -608,7 +608,7 @@ Day 37 - 24 January 2024
   3. Create a snapshot of an EBS volume.
   4. Create an EBS volume from a snapshot.
 
-Day 38 - 25 January 2024  
+Day 43 - 25 January 2024  
 - Topic 3 Storage and Archiving - Instance Store
   1. You will learn how to identify what Amazon Elastic Compute Cloud (Amazon EC2) instance store volumes are and how they work.
 - Topic 4 Storage and Archiving - Amazon EFS
@@ -624,7 +624,7 @@ Day 38 - 25 January 2024
 - Topic 7 Storage and Archiving - AWS Storage Gateway
   1. You will learn how to define AWS Storage Gateway, what its key concepts are, and how it works.
 
-Day 39 - 26 January 2024  
+Day 44 - 26 January 2024  
 - Topic 8 Storage and Archiving - AWS Transfer Family and Other Migration Services
   1. Define the AWS Transfer Family and its key concepts.
   2. Identify Amazon Web Services (AWS) migration services and their uses.
@@ -633,5 +633,5 @@ Day 39 - 26 January 2024
   2. Verify write permissions to a user on an S3 bucket.
   3. Configure event notification on an S3 bucket.
 
-Day 40 - 29 January 2024  
+Day 45 - 29 January 2024  
 - Penjelasan cara booking ujian CCP
