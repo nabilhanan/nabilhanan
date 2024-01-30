@@ -635,3 +635,17 @@ Day 44 - 26 January 2024
 
 Day 45 - 29 January 2024  
 - Penjelasan cara booking ujian CCP
+
+Day 46 - 30 January 2024  
+- Topic 1 Jumpstart on AWS - Amazon CloudWatch
+  1. Describe an AWS monitoring service, Amazon CloudWatch
+  2. Describe the three components of CloudWatch
+- Topic 2 Jumpstart on AWS - Deep Dive: Amazon CloudWatch – Logs and Events
+  1. Describe the features of Amazon CloudWatch Events
+  2. Describe the features and benefits of Amazon CloudWatch Logs
+- Lab 186 - Monitoring Infrastructure
+  1. Use the AWS Systems Manager Run Command to install the CloudWatch agent on Amazon Elastic Compute Cloud (Amazon EC2) instances
+  2. Monitor application logs using CloudWatch agent and CloudWatch Logs
+  3. Monitor system metrics using CloudWatch agent and CloudWatch Metrics
+  4. Create real time notifications using CloudWatch Events
+  5. Track infrastructure compliance using AWS Config
