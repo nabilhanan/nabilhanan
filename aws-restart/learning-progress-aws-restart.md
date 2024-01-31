@@ -649,3 +649,18 @@ Day 46 - 30 January 2024
   3. Monitor system metrics using CloudWatch agent and CloudWatch Metrics
   4. Create real time notifications using CloudWatch Events
   5. Track infrastructure compliance using AWS Config
+
+Day 47 - 31 January 2024  
+- Topic 3 Jumpstart on AWS - AWS CloudTrail
+  1. Explain the purpose and function of AWS CloudTrail
+- Topic 4 Jumpstart on AWS - AWS Service Integration with Amazon Athena
+  1. Explain how to use Amazon Athena to query data from other AWS services
+- Lab 187 - Working with AWS CloudTrail
+  1. Configure a CloudTrail trail
+  2. Analyze CloudTrail logs by using various methods to discover relevant information
+  3. Import CloudTrail log data into Athena
+  4. Run queries in Athena to filter CloudTrail log entries
+  5. Resolve security concerns within the AWS account and on an EC2 Linux instance
+- Topic 5 Jumpstart on AWS - Introduction to AWS Organizations
+  1. Describe the AWS Organizations service.
+  2. Highlight the main features and benefits of AWS Organizations.
