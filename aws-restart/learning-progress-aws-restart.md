@@ -664,3 +664,25 @@ Day 47 - 31 January 2024
 - Topic 5 Jumpstart on AWS - Introduction to AWS Organizations
   1. Describe the AWS Organizations service.
   2. Highlight the main features and benefits of AWS Organizations.
+
+Day 48 - 1 February 2024  
+- Topic 6 Jumpstart on AWS - Tagging
+  1. Explain the purpose and function of tagging in AWS.
+  2. Describe the cost management strategies associated with tagging.
+  3. Enforce tagging by using AWS Identity and Access Management (IAM) policies.
+- Topic 7 Jumpstart on AWS - Cost Management and Best Practices
+  1. Describe some of the cost benefits of the cloud.
+  2. Identify key AWS cost management tools and services.
+  3. Apply best practices for cost optimization.
+- Activity - Optimize Utilization
+  1. Optimize an Amazon Elastic Compute Cloud (Amazon EC2) instance to reduce costs.
+  2. Use the AWS Pricing Calculator to estimate AWS service costs.
+- Topic 8 Jumpstart on AWS - Support
+  1. Describe AWS support services and their benefits
+  2. Distinguish among AWS Technical Support Plans and their costs
+  3. Recognize the services within AWS Trusted Advisor
+  4. Recognize AWS documentation and whitepapers available for support
+- Lab 188 - Managing Resources with Tagging
+  1. Apply tags to existing AWS resources.
+  2. Find resources based on tags.
+  3. Use the AWS CLI or AWS SDK for PHP to stop and terminate Amazon EC2 instances based on certain attributes of the resource.
