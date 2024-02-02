@@ -677,7 +677,7 @@ Day 48 - 1 February 2024
 - Activity - Optimize Utilization
   1. Optimize an Amazon Elastic Compute Cloud (Amazon EC2) instance to reduce costs.
   2. Use the AWS Pricing Calculator to estimate AWS service costs.
-- Topic 8 Jumpstart on AWS - Support
+- Topic 8 Jumpstart on AWS - Support Services
   1. Describe AWS support services and their benefits
   2. Distinguish among AWS Technical Support Plans and their costs
   3. Recognize the services within AWS Trusted Advisor
@@ -686,3 +686,27 @@ Day 48 - 1 February 2024
   1. Apply tags to existing AWS resources.
   2. Find resources based on tags.
   3. Use the AWS CLI or AWS SDK for PHP to stop and terminate Amazon EC2 instances based on certain attributes of the resource.
+
+Day 49 - 2 February 2024  
+- Topic 9 Jumpstart on AWS - Automated and Repeatable Deployments (Configuration Management in the Cloud)
+  1. Describe the benefits of configuration management
+  2. Identify key AWS services for configuration management
+  3. Create a configuration management strategy
+- Topic 10 Jumpstart on AWS - AMI Building Strategy
+  1. Describe the value proposition of using an Amazon Machine Image (AMI)
+  2. Create an AMI
+  3. Explain the characteristics of an AMI
+  4. Identify recommendations for creating a Microsoft Windows AMI
+- Topic 11 Jumpstart on AWS - Amazon EC2 Launch Templates
+  1. Describe the purpose of a launch template for Amazon Elastic Compute Cloud (Amazon EC2) instances
+  2. Create a launch template
+  3. Explain launch template versions
+- Topic 12 Jumpstart on AWS - Infrastructure as Code
+  1. Describe infrastructure as code (IaC) and the value that it creates
+- Topic 13 Jumpstart on AWS - Introduction to JSON and YAML
+  1. Describe the basic syntax of JavaScript Object Notation (JSON) and YAML Ain’t Markup Language (YAML)
+  2. Explain the advantages and disadvantages of JSON and YAML data formats
+- Topic 14 Jumpstart on AWS - AWS CloudFormation
+  1. Describe the purpose of AWS CloudFormation.
+  2. Create a AWS CloudFormation template.
+  3. Use AWS CloudFormation best practices.
