@@ -559,3 +559,69 @@ Page
 Don’t forget to update your LinkedIn with your AWS re/Start experience
 External Tool
 Post Graduate Resources Introduction
+
+### Professional Skills
+Welcome to AWS re/Start!
+External Tool
+Self-Assessment: Who Am I?
+External Tool
+Self-Assessment: Who Am I? Questionnaire
+External Tool
+Think Big
+External Tool
+Cloud Roles
+External Tool
+Goal Setting
+External Tool
+Career Goals
+External Tool
+Communication and STAR Methodology
+External Tool
+Activity Introduction to the Amazon Leadership Principles
+External Tool
+Leadership Principles Customer Obsession
+External Tool
+Outlook
+External Tool
+Ready to get AWS Certified?
+External Tool
+Emotional Intelligence
+External Tool
+Leadership Principles Learn and Be Curious
+External Tool
+Digital Presence
+External Tool
+Digital Presence Resume
+External Tool
+Interview Settings
+External Tool
+Interview Process
+External Tool
+Leadership Principles Earn Trust
+External Tool
+The Hiring Process
+External Tool
+Leadership Principles Have a Backbone; Disagree and Commit
+External Tool
+Exploring Cloud Job Postings
+External Tool
+What's next after AWS re/Start?
+External Tool
+Resume Creation
+External Tool
+Resume Guidance
+External Tool
+Networking Skills
+External Tool
+Technical Thought Process
+External Tool
+Teamwork and Collaboration
+External Tool
+Elevator Pitch
+External Tool
+Post-Graduate Resources
+Assignment
+AWS re/Start Interview Preparation
+0 pts
+External Tool
+The Portfolio Project
